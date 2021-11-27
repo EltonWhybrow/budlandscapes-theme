@@ -37,7 +37,6 @@ jobs:
         with:
           name: build-folder
           path: |
-            /
 
   deployment:
     needs: build
@@ -58,4 +57,4 @@ jobs:
           #git config user.name "Elton Whybrow"
           #git add -A && git commit -m "Add compiled build to git"
           ls
-          #git ftp push -v --force --user ${{ secrets.FTP_USER_PROD1 }} --passwd ${{ secrets.FTP_PWD_PROD1 }} ftp://ftps3.uk.cloudlogin.co
+          #git ftp push -v --force --user ${{ secrets.FTP_USER_STAGING }} --passwd ${{ secrets.FTP_PWD_STAGING }} ftp://ftps1.uk.cloudlogin.co
