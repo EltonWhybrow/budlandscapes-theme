@@ -32,6 +32,9 @@ jobs:
           npm run prod
           ls
           echo '>>>> remove stuff'
+          rm .gitignore
+          rm .git
+          rm .github
           rm -rf app
           rm -rf assets
           rm local-example.json
