@@ -24,7 +24,11 @@ jobs:
       - name: Install packages & build ssr/prod ng app
         run: |
           ls
-          #npm install
+          rm README.md
+          ls
+          cd wp-content/themes/budlandscapes/
+          ls
+          npm install
           #npm run prod
           ls
 
@@ -33,7 +37,7 @@ jobs:
         with:
           name: build-folder
           path: |
-            dist/widesign-elton/browser
+            /
 
   deployment:
     needs: build
