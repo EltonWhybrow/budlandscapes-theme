@@ -1,0 +1,65 @@
+# ignore everything in the root except the "wp-content" directory and some ci stuff.
+# !wp-content/
+/wp-admin
+/wp-includes
+wp-*.php
+
+# ignore everything in the "wp-content" directory, except:
+# "mu-plugins", "*-plugins", "themes" directory
+wp-content/*
+!wp-content/mu-plugins/
+!wp-content/plugins/
+wp-content/plugins/advanced-custom-fields/
+wp-content/plugins/classic-editor/
+wp-content/plugins/duplicate-post-page-menu-custom-post-type/
+wp-content/plugins/html-editor-syntax-highlighter/
+wp-content/plugins/regenerate-thumbnails/
+wp-content/plugins/wordpress-seo/
+
+
+!wp-content/themes/
+# pagely advice 
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/cache/
+wp-content/backups/
+wp-content/mu-plugins/pagely*
+
+# ignore specific files/folders within the theme
+wp-content/themes/budlandscapes/.idea
+wp-content/themes/budlandscapes/.vscode
+wp-content/themes/budlandscapes/build/mix-manifest.json
+wp-content/themes/budlandscapes/build
+wp-content/themes/budlandscapes/local.json
+
+# ignore specific files/folders misc
+/index.php
+xmlrpc.php
+license.txt
+readme.html
+sitemap.xml
+db-config.php
+sitemap.xml.gz
+wp-config.php
+wp-config-hosting.php
+.htaccess
+.DS_Store
+
+# ignore these plugins
+#wp-content/plugins/hello.php
+
+# ignore node dependency directories
+#node_modules/
+wp-content/themes/budlandscapes/node_modules/
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# ignore editor
+*.history/
+
+# logs
+wp-content/plugins/wpsitesynccontent/~log.txt
+

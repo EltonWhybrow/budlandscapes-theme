@@ -1,0 +1,35 @@
+// Simple Accordian 
+/* purgecss start ignore */
+.accordian {
+  cursor: pointer;
+
+  &.active {
+
+    @apply bg-igb-li-grey-500;
+    @apply border-igb-rich-blue-500;
+
+    +.accordian-pane {
+      display: flex;
+    }
+
+    .pointer {
+      transform: rotate(180deg);
+      position: relative;
+
+    }
+  }
+
+
+  .pointer {
+    display: inline-block;
+    font-size: 2rem;
+    transform: rotate(0deg);
+  }
+
+  +.accordian-pane {
+    display: none;
+  }
+
+}
+
+/* purgecss end ignore */

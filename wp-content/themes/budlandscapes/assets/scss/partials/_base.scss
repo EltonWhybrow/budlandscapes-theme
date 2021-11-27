@@ -1,0 +1,74 @@
+// Add any custom base CSS can go here
+
+$img-path: '../../../../../../resources/img';
+// Foundation
+
+// =≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠
+html {
+  @apply antialiased;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  @apply text-igb-dk-grey-500;
+
+  @screen md {
+    font-size: 18px;
+  }
+}
+
+// Daves recom.
+// H1 + H2: Azo Sans Black (CAPS) 900
+// H3: Azo Bold (Upper and Lower) 700
+// H4: Azo Medium (CAPS) 500
+// body is Azo Sans Regular 400
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-azo;
+}
+
+body {
+  font-weight: 400;
+  @apply font-azo;
+}
+
+
+h1 {
+  @apply text-3xl;
+  font-weight: 900;
+  @apply uppercase;
+}
+
+h2 {
+  @apply text-2xl;
+  font-weight: 900;
+}
+
+h3 {
+  @apply text-lg;
+  font-weight: 700;
+}
+
+h4 {
+  @apply text-base;
+  font-weight: 500;
+  @apply uppercase;
+}
+
+.ig-break {
+  border-bottom: dashed 2px;
+  @apply border-gray-300;
+
+  @screen md {
+    border-bottom: none;
+  }
+}
+
+// header {
+//   position: fixed;
+//   width: 100%;
+//   z-index: 9999;
+// }

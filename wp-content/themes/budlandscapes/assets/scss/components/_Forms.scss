@@ -1,0 +1,93 @@
+// WP Forms overides
+/* purgecss start ignore */
+.igb-form {
+
+  .igb-formfield {
+    width: 80% #{!important};
+  }
+
+  .igb-message-formfield {
+    width: 80% #{!important};
+  }
+
+  .primary-btn {
+    @apply items-center px-3 py-2 text-base leading-none text-white border rounded-full border-igb-orange-500 bg-igb-orange-500 border-transparent #{!important};
+
+    &:hover {
+      @apply bg-igb-orange-600 #{!important};
+    }
+
+    @screen md {
+      @apply mt-0 #{!important};
+    }
+  }
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-field input.wpforms-error,
+div.wpforms-container-full .wpforms-form .wpforms-field input.user-invalid,
+div.wpforms-container-full .wpforms-form .wpforms-field textarea.wpforms-error,
+div.wpforms-container-full .wpforms-form .wpforms-field textarea.user-invalid,
+div.wpforms-container-full .wpforms-form .wpforms-field select.wpforms-error,
+div.wpforms-container-full .wpforms-form .wpforms-field select.user-invalid,
+div.wpforms-container-full .wpforms-form .wpforms-field.wpforms-has-error .choices__inner {
+  @apply border-igb-orange-500 #{!important};
+}
+
+div.wpforms-container-full .wpforms-form label.wpforms-error {
+  @apply text-igb-orange-500 py-1 text-xs #{!important};
+}
+
+.wpforms-confirmation-container-full,
+div[submit-success]>.wpforms-confirmation-container-full:not(.wpforms-redirection-message) {
+  @apply border-success-500 #{!important};
+  @apply bg-success-500 #{!important};
+}
+
+
+.page-id-9 {
+
+  .igb-form {
+
+    // .igb-formfield {
+    //   width: 80% #{!important};
+    // }
+
+    // .igb-message-formfield {
+    //   width: 80% #{!important};
+    // }
+
+    .primary-btn {
+      @apply items-center px-3 py-2 text-base leading-none text-white border rounded-full border-white bg-igb-orange-500 border-transparent #{!important};
+
+      &:hover {
+        @apply bg-igb-orange-600 #{!important};
+      }
+
+      @screen md {
+        @apply mt-0 #{!important};
+      }
+    }
+  }
+
+  div.wpforms-container-full .wpforms-form .wpforms-field input.wpforms-error,
+  div.wpforms-container-full .wpforms-form .wpforms-field input.user-invalid,
+  div.wpforms-container-full .wpforms-form .wpforms-field textarea.wpforms-error,
+  div.wpforms-container-full .wpforms-form .wpforms-field textarea.user-invalid,
+  div.wpforms-container-full .wpforms-form .wpforms-field select.wpforms-error,
+  div.wpforms-container-full .wpforms-form .wpforms-field select.user-invalid,
+  div.wpforms-container-full .wpforms-form .wpforms-field.wpforms-has-error .choices__inner {
+    @apply border-igb-orange-700 #{!important};
+  }
+
+  div.wpforms-container-full .wpforms-form label.wpforms-error {
+    @apply text-white py-1 text-xs #{!important};
+  }
+
+  .wpforms-confirmation-container-full,
+  div[submit-success]>.wpforms-confirmation-container-full:not(.wpforms-redirection-message) {
+    @apply border-success-500 #{!important};
+    @apply bg-success-500 #{!important};
+  }
+}
+
+/* purgecss end ignore */
