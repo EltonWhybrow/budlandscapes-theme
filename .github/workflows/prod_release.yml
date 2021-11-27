@@ -32,9 +32,6 @@ jobs:
           npm run prod
           ls
           echo '>>>> remove stuff'
-          rm -rf .gitignore
-          rm -rf .git
-          rm -rf .github
           rm -rf app
           rm -rf assets
           rm local-example.json
@@ -49,6 +46,9 @@ jobs:
           ls
           echo '>>>> BACK UP TO ROOT' 
           cd ../../../
+          rm .gitignore
+          rm -rf .git
+          rm -rf .github
           echo '>>>> PATH AND FILES LEFT' 
           pwd
           ls
