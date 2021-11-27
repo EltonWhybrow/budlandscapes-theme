@@ -31,12 +31,15 @@ jobs:
           npm install
           npm run prod
           ls
+          cd ../../../
+          ls
 
       - name: Archive production artifacts
         uses: actions/upload-artifact@v2
         with:
           name: build-folder
-          path: *
+          path: |
+            *
 
   deployment:
     needs: build
