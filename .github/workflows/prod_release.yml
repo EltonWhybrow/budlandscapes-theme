@@ -32,19 +32,16 @@ jobs:
           npm run prod
           ls
           echo 'remove stuff'
-          rm app
-          rm assets
+          rm -rf app
+          rm -rf assets
           rm local-example.json
-          rm node_modules
+          rm -rf node_modules
           rm package-lock.json
           rm package.json
           rm readme.md
           rm screenshot.jpg
-          rm tailwind-example.js
-          rm tailwind.js
-          rm webpack.mix.dev.js
-          rm webpack.mix.js
-          rm webpack.mix.prod.js                                               
+          rm tailwind*.js
+          rm webpack.*.js                                             
           ls
           cd ../../../
           ls
