@@ -31,7 +31,7 @@ jobs:
           npm install
           npm run prod
           ls
-          echo 'remove stuff'
+          echo '>>>> remove stuff'
           rm -rf app
           rm -rf assets
           rm local-example.json
@@ -41,9 +41,13 @@ jobs:
           rm readme.md
           rm screenshot.jpg
           rm tailwind*.js
-          rm webpack.*.js                                             
+          rm webpack.*.js 
+          echo '>>>> AFTER REMOVE stuff'                                            
           ls
+          echo '>>>> BACK UP TO ROOT' 
           cd ../../../
+          echo '>>>> PATH AND FILES LEFT' 
+          pwd
           ls
 
       - name: Archive production artifacts
