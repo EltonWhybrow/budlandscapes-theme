@@ -32,7 +32,6 @@ jobs:
           npm run prod
           ls
           echo '>>>> remove stuff'
-          rm -rf app
           rm -rf assets
           rm local-example.json
           rm -rf node_modules
