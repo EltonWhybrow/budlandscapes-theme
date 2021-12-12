@@ -28,7 +28,7 @@ For use in WYSIWYG Editor:
 
 function igb_main_number($atts)
 {
-$igb_main_number = "<a class='primary-link-sm' href='tel:+441372860881'>+44 (0)1372 860 881</a>";
+$igb_main_number = "<a class='primary-link-sm' href='tel:+44XXXXXXXXXXX'>+44 (0)XXXXX XXX XXX</a>";
 return $igb_main_number;
 }
 
@@ -41,8 +41,7 @@ return $igb_main_email;
 
 function igb_main_number_invert($atts)
 {
-$igb_main_number_invert = "<a class='primary-link-sm text-white hover:text-igb-grey-100' href='tel:+441372860881'>+44
-    (0)1372 860 881</a>";
+$igb_main_number_invert = "<a class='primary-link-sm text-white hover:text-igb-grey-100' href='tel:+44XXXXXXXXXXX'>+44 (0)XXXXX XXX XXX</a>";
 return $igb_main_number_invert;
 }
 

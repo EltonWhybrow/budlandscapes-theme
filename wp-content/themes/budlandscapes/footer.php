@@ -8,11 +8,11 @@
             <div class="w-full md:w-2/5 text-sm px-5">
                 <h2 class="heading-2 font-bold text-white mb-3 pl-0 text-center md:text-right">Contact Us</h2>
                 <ul class="text-center md:text-right">
-                    <li>ingenie Business</li>
-                    <li>Thorncroft Manor </li>
-                    <li> Thorncroft Drive</li>
-                    <li>Leatherhead</li>
-                    <li>KT22 8JB</li>
+                    <li>Your Business</li>
+                    <li>Address 1</li>
+                    <li>Address 2</li>
+                    <li>County</li>
+                    <li>POST CODE</li>
                 </ul>
                 <ul class="text-center md:text-right mt-4">
                     <li><span class="bottom-1 inline relative text-xs">Telephone: </span>
@@ -35,7 +35,9 @@
         <div
             class="link-items flex flex-col sm:flex-row flex-wrap items-center sm:items-start justify-between p-2 text-white">
             <div class="sm:w-full p-0 sm:p-4">
-                <img class="m-auto" src="/resources/img/ingenie-business-logo.svg" alt="ingenie Business logo"
+                <!-- <img class="m-auto" src="/resources/img/XXXX-logo.svg" alt="Business logo"
+                    width="260" height="auto"> -->
+                    <img class="m-auto" src="https://dummyimage.com/260x43/666/777" alt="Business logo"
                     width="260" height="auto">
             </div>
 

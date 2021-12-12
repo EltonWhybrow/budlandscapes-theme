@@ -31,7 +31,7 @@
 
         <a href="/" class="inline-block">
             <!-- <span class="text-xl font-bold">ingenie</span> -->
-            <img src="/resources/img/ingenie-business-logo.svg" alt="ingenie Business" width="220" height="auto">
+            <img src="https://dummyimage.com/220x39/666/777" alt="Business" width="220" height="auto">
         </a>
 
     </div>

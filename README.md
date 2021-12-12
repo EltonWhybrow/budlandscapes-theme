@@ -16,11 +16,11 @@ XAMPP Server (or similar)
 
 ### Prerequisites:
 
-Download local version of site using pagely tools or your choosen method. You will need WAMP / MAMP / LOCAL or similar to run apache/DB/php on you local machine dependent on you operating system.
+install a default version od Wordpress on your local machine using your prefered method. You will need WAMP / MAMP / LOCAL or similar to run apache/DB/php on you local machine dependent on you operating system.
 Once you have the site locally follow steps below to get local development version running.
 
 1. Drop theme/repo into your local development site as is (is same directory structure).
-1. `cd` into budlandscapes theme directory (to package.json)
+1. `cd` into XXXXXX theme directory (to package.json)
 1. Run `npm install`
 1. Duplicate the `local-example.json` file to `local.json`, then replace the `proxy` value with your local development hostname
    - This will allow you to use live reload/injection while working on your CSS/JS
@@ -80,9 +80,4 @@ h3 {
 
 ## Deployment
 
-Work in progress but currently if checked into github a CircleCI build starts and runs the `npm run prod` script ready to deploy the production build. It is then deployed to the staging/production dependent of which branch. Master is only built on PR from staging.
-
-## Styleguides
-
-These are work in progress currently available at:
-[/styleguide](http://s38759.p257.sites.pressdns.com/styleguide) dependent on local or staging environment. No need to have these pages in production.
+Work in progress but currently using git actions to git-ftp for CI/CD. It runs the `npm run prod` script ready to deploy. It is then deployed to the staging/production dependent of which branch. Master is only built on PR from staging.
