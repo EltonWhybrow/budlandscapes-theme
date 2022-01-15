@@ -4,7 +4,7 @@ YD - faqs - self-fit
 ============================= 
 -->
 <ul class="self-fit">
-    <h3 class="heading-3 mb-1 ml-0 border-l-4 pl-2 border-igb-orange-500">Self-fit box</h3>
+    <h3 class="heading-3 mb-1 ml-0 border-l-4 pl-2 border-bl-orange-500">Self-fit box</h3>
 
     <?php
     $args = array(

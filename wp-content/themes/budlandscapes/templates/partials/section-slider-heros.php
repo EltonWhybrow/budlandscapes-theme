@@ -4,7 +4,7 @@ Customer quotes slider
 ============================= 
 -->
 <section id="slider-heros" class="mx-0">
-    <div class="flexslider relative bg-transparent border-0 h-screen md:h-igb">
+    <div class="flexslider relative bg-transparent border-0 h-screen">
         <ul class="slides">
 
             <?php
@@ -26,16 +26,16 @@ Customer quotes slider
             background-size: cover; 
             background-position: center">
 
-                <div class="flex  flex-wrap-reverse container mx-auto max-w-5xl md:mt-5">
-                    <div class="w-full md:w-2/5 mx-auto md:mt-10">
-                        <?php if (get_field('inline_image')) { ?>
+                <div class="flex container mx-auto">
+                    <!-- <div class="w-full md:w-2/5 mx-auto md:mt-10">
+                        <?php //if (get_field('inline_image')) { ?>
                         <img class="md:float-right md:mr-4 mx-auto" src="<?php the_field('inline_image'); ?>"
-                            alt="<?php the_title() ?>" width="180px" height="auto" style="width: 180px; height: auto;">
-                        <?php } ?>
-                    </div>
+                            alt="<?php //the_title() ?>" width="180px" height="auto" style="width: 180px; height: auto;">
+                        <?php // } ?>
+                    </div> -->
 
                     <div
-                        class="w-full md:w-3/5 mx-auto mt-3 md:mt-10 mb-2 text-white px-7 md:p-2 text-center md:text-left">
+                        class="w-full h-screen mx-auto text-white px-5 text-center relative">
                         <?php the_field('hero_heading'); ?>
                         <div class="text-sm px-6 md:px-0"><?php the_content() ?></div>
                     </div>

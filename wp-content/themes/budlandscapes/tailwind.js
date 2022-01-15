@@ -37,10 +37,10 @@ module.exports = {
     },
     extend: {
       height: {
-        igb: '28rem'
+        // igb: '28rem'
       },
       colors: {
-        'igb-rich-blue': {
+        'bl-rich-blue': {
           '50': '#f4f4f7',
           '100': '#e8e9ef',
           '200': '#c6c8d7',
@@ -52,7 +52,7 @@ module.exports = {
           '800': '#101438',
           '900': '#0d112e'
         },
-        'igb-li-grey': {
+        'bl-li-grey': {
           '50': '#fcfcfc',
           '100': '#f9f9f9',
           '200': '#f1f1f1',
@@ -64,7 +64,7 @@ module.exports = {
           '800': '#777777',
           '900': '#626262'
         },
-        'igb-md-grey': {
+        'bl-md-grey': {
           '50': '#f9f9f9',
           '100': '#f3f3f3',
           '200': '#e2e2e2',
@@ -76,7 +76,7 @@ module.exports = {
           '800': '#535353',
           '900': '#444444'
         },
-        'igb-dk-grey': {
+        'bl-dk-grey': {
           '50': '#f5f5f5',
           '100': '#ebebeb',
           '200': '#cecece',
@@ -88,7 +88,7 @@ module.exports = {
           '800': '#222222',
           '900': '#1c1c1c'
         },
-        'igb-orange': {
+        'bl-orange': {
           '50': '#fef8f4',
           '100': '#fdf1e9',
           '200': '#fbddc9',
@@ -112,9 +112,7 @@ module.exports = {
           '700': '#61C1EE',
           '800': '#33AFE9',
           '900': '#1696D3'
-        }
-
-        ,
+        },
         'success': {
           DEFAULT: '#DFF2BF',
           '50': '#FFFFFF',
@@ -127,9 +125,7 @@ module.exports = {
           '700': '#B5E16A',
           '800': '#9FD840',
           '900': '#86BE27'
-        }
-
-        ,
+        },
         'warning': {
           DEFAULT: '#FEEFB3',
           '50': '#FFFFFF',
@@ -142,9 +138,7 @@ module.exports = {
           '700': '#FDDA4E',
           '800': '#FCCF1C',
           '900': '#E2B503'
-        }
-
-        ,
+        },
         'alert': {
           DEFAULT: '#FF7070',
           '50': '#FFFFFF',
@@ -157,16 +151,12 @@ module.exports = {
           '700': '#FF0A0A',
           '800': '#D60000',
           '900': '#A30000'
-        }
-
-        ,
+        },
         link: {
           'default': '#3182ce',
           'hover': '#63b3ed',
         }
-      }
-
-      ,
+      },
       fontSize: {
         xxs: '0.675rem',
       }

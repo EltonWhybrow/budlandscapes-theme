@@ -8,7 +8,7 @@ get_header(); ?>
 
 
 <!-- Mobile Header -->
-<div class="bg-igb-orange-500 sm:block md:hidden">
+<div class="bg-bl-orange-500 sm:block md:hidden">
     <div class="w-full p-3 ">
         <h2 class="heading-2 text-3xl font-bold text-white"><?php the_title(); ?></h2>
     </div>
@@ -29,7 +29,7 @@ get_header(); ?>
 </div>
 <?php endif; ?>
 
-<div class="bg-igb-orange-500">
+<div class="bg-bl-orange-500">
 
     <div class="lg:container lg:mx-auto py-2">
 
@@ -67,7 +67,7 @@ get_header(); ?>
     <div class="md:pb-12 pt-4 text-sm px-5">
 
 
-        <h2 class="heading-2 font-bold text-igb-orange-500 my-3 pl-0">Latest Studies</h2>
+        <h2 class="heading-2 font-bold text-bl-orange-500 my-3 pl-0">Latest Studies</h2>
 
         <?php get_template_part('templates/partials/section', 'case-studies'); ?>
 

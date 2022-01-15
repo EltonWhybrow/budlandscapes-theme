@@ -41,13 +41,13 @@ return $igb_main_email;
 
 function igb_main_number_invert($atts)
 {
-$igb_main_number_invert = "<a class='primary-link-sm text-white hover:text-igb-grey-100' href='tel:+44XXXXXXXXXXX'>+44 (0)XXXXX XXX XXX</a>";
+$igb_main_number_invert = "<a class='primary-link-sm text-white' href='tel:+44XXXXXXXXXXX'>+44 (0)XXXXX XXX XXX</a>";
 return $igb_main_number_invert;
 }
 
 function igb_main_email_invert($atts)
 {
-$igb_main_email_invert = "<a class='primary-link-sm text-white hover:text-igb-grey-100'
+$igb_main_email_invert = "<a class='primary-link-sm text-white'
     href='mailto:info@XXXX.com' target='_blank' rel='noopener noreferrer'>info@XXXX.com</a>";
 return $igb_main_email_invert;
 }

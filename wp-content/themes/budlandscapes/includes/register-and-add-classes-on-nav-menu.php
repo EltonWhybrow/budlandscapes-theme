@@ -8,12 +8,8 @@
 register_nav_menus(
     array(
 
-        'main-about-us-menu' => 'About Us Menu Location',
-        'main-core-capabilities-menu' => 'Core Capabilities Menu Location',
-        'main-expertise-menu' => 'Expertise Menu Location',
-        'main-news-menu' => 'News Menu Location',
-        'main-get-in-touch-menu' => 'Get In Touch Menu Location',
-        'burger-menu' => 'Mobile Menu Location',
+        'main-home-menu' => 'Home Menu Location',
+        'burger-menu' => 'Burger Menu Location',
         'side-menu' => 'Side Menu Location',
     )
 );

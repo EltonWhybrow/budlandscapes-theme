@@ -4,7 +4,7 @@ Button component
 ============================= 
 -->
 <?php
-\budlandscapes2022Theme\View::render('IgbButtonView', [
+\budlandscapes2022Theme\View::render('ButtonView', [
     'text' => $text,
     'size' => $size,
     'type' => $type,

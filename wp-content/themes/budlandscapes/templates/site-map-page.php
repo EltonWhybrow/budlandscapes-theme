@@ -8,7 +8,7 @@ get_header(); ?>
 
 <div class="sitemap">
 
-    <div class="bg-igb-orange-500 py-10">
+    <div class="bg-bl-orange-500 py-10">
         <div class="container max-w-4xl mx-auto flex">
             <h1 class="w-2/5 px-5 heading-1 mt-0 font-black uppercase">Site map</h1>
             <div class="w-3/5 px-5 text-white">

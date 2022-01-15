@@ -1,4 +1,4 @@
-<div class="bg-igb-orange-500 pt-12 pb-6">
+<div class="bg-bl-orange-500 pt-12 pb-6">
     <div class="lg:container lg:mx-auto">
 
         <div
@@ -34,7 +34,7 @@
 </div>
 
 <!-- Site footer markup goes here -->
-<footer class="bg-igb-dk-grey-500 pt-12 pb-6">
+<footer class="bg-bl-dk-grey-500 pt-12 pb-6">
     <div class="lg:container lg:mx-auto">
 
         <div
@@ -87,7 +87,7 @@
 
     <!-- MODAL OVERLAY -->
     <div id="modal-overlay"
-        class="cursor-pointer close-modal z-75 fixed hidden top-0 left-0 w-screen h-screen flex items-center justify-center bg-igb-rich-blue-700 bg-opacity-50 ">
+        class="cursor-pointer close-modal z-75 fixed hidden top-0 left-0 w-screen h-screen flex items-center justify-center bg-bl-rich-blue-700 bg-opacity-50 ">
     </div>
 
 </footer>

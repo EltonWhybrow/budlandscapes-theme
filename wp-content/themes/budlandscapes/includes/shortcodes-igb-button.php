@@ -6,7 +6,7 @@ Buttons
     =================================
 */
 
-function get_igb_button($atts)
+function get_main_button($atts)
 {
     extract(shortcode_atts(array(
         'text' => 'Go',
@@ -22,7 +22,7 @@ function get_igb_button($atts)
     set_query_var('type', $type); // pass var to template
     set_query_var('url', $url); // pass var to template
     set_query_var('qstring', $qstring); // pass var to template
-    get_template_part('./templates/partials/section', 'igb-button');
+    get_template_part('./templates/partials/section', 'main-button');
     return ob_get_clean();
 }
-add_shortcode('igb-button', 'get_igb_button');
+add_shortcode('main-button', 'get_main_button');

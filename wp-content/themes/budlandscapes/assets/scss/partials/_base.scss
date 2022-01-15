@@ -1,18 +1,18 @@
 // Add any custom base CSS can go here
 
-$img-path: '../../../../../../resources/img';
+$img-path: "../../../../../../resources/img";
 // Foundation
 
 // =≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠
 html {
-  @apply antialiased;
-  font-size: 15px;
-  text-rendering: optimizeLegibility;
-  @apply text-igb-dk-grey-500;
+	@apply antialiased;
+	font-size: 15px;
+	text-rendering: optimizeLegibility;
+	@apply text-bl-dk-grey-500;
 
-  @screen md {
-    font-size: 18px;
-  }
+	@screen md {
+		font-size: 18px;
+	}
 }
 
 // Daves recom.
@@ -27,44 +27,43 @@ h3,
 h4,
 h5,
 h6 {
-  @apply font-azo;
+	@apply font-azo;
 }
 
 body {
-  font-weight: 400;
-  @apply font-azo;
+	font-weight: 400;
+	@apply font-azo;
 }
 
-
 h1 {
-  @apply text-3xl;
-  font-weight: 900;
-  @apply uppercase;
+	@apply text-3xl;
+	font-weight: 900;
+	@apply uppercase;
 }
 
 h2 {
-  @apply text-2xl;
-  font-weight: 900;
+	@apply text-2xl;
+	font-weight: 900;
 }
 
 h3 {
-  @apply text-lg;
-  font-weight: 700;
+	@apply text-lg;
+	font-weight: 700;
 }
 
 h4 {
-  @apply text-base;
-  font-weight: 500;
-  @apply uppercase;
+	@apply text-base;
+	font-weight: 500;
+	@apply uppercase;
 }
 
 .ig-break {
-  border-bottom: dashed 2px;
-  @apply border-gray-300;
+	border-bottom: dashed 2px;
+	@apply border-gray-300;
 
-  @screen md {
-    border-bottom: none;
-  }
+	@screen md {
+		border-bottom: none;
+	}
 }
 
 // header {

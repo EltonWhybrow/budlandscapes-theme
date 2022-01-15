@@ -4,115 +4,115 @@ Main desktop Navigaton Menu:
 
 /* purgecss start ignore */
 .navbar-main {
-  @apply z-50;
+	@apply z-50;
 
-  >ul {
-    padding: 20px 0 0 0;
-  }
+	> ul {
+		padding: 20px 0 0 0;
+	}
 
-  li {
-    height: 65px;
-    list-style: none;
-    transition: background-color 0.2s ease;
+	li {
+		height: 90px;
+		list-style: none;
+		transition: background-color 0.2s ease;
 
-    &:hover,
-    &:active {
-      @apply bg-igb-dk-grey-800;
-      @apply text-igb-orange-500;
+		&:hover,
+		&:active {
+			@apply bg-bl-dk-grey-800;
+			@apply text-bl-orange-500;
 
-      >.sub-menu {
-        visibility: visible;
-        opacity: 1;
-        transition-delay: .2s;
-      }
-    }
+			> .sub-menu {
+				visibility: visible;
+				opacity: 1;
+				transition-delay: 0.2s;
+			}
+		}
 
-    a {
-      @apply pl-3 py-4 pr-0 mt-1;
-      box-sizing: border-box;
-      display: inline-block;
-      text-decoration: none;
+		a {
+			@apply px-3 py-4 mt-1;
+			box-sizing: border-box;
+			height: 100%;
+			display: inline-block;
+			text-decoration: none;
+			color: white;
 
-      span {
-        display: inline-block;
-        vertical-align: middle;
-      }
-    }
+			span {
+				display: inline-block;
+				vertical-align: middle;
+			}
+		}
 
-    .sub-menu {
-      @apply z-50;
-      padding-bottom: 2rem;
-      visibility: hidden;
-      opacity: 0;
-      transition: visibility 0s, opacity 0.5s;
-      transition-duration: .3s;
-      text-align: left;
-      position: absolute;
-      top: 65px;
-      left: 0;
-      right: 0;
-      @apply bg-igb-dk-grey-800;
-      @apply text-igb-li-grey-200;
+		.sub-menu {
+			@apply z-50;
+			padding-bottom: 2rem;
+			visibility: hidden;
+			opacity: 0;
+			transition: visibility 0s, opacity 0.5s;
+			transition-duration: 0.3s;
+			text-align: left;
+			position: absolute;
+			top: 65px;
+			left: 0;
+			right: 0;
+			@apply bg-bl-dk-grey-800;
+			@apply text-bl-li-grey-200;
 
-      span.sub {
-        @apply text-xs py-1;
-      }
+			span.sub {
+				@apply text-xs py-1;
+			}
 
-      // products sub-sub
-      .sub-sub {
-        position: relative;
+			// products sub-sub
+			.sub-sub {
+				position: relative;
 
-        ul {
-          position: absolute;
-          top: 60%;
-          display: inline;
-          width: calc(100% * 6);
-          background: transparent;
+				ul {
+					position: absolute;
+					top: 60%;
+					display: inline;
+					width: calc(100% * 6);
+					background: transparent;
 
+					li {
+						&:hover {
+							background: transparent;
+						}
 
-          li {
-            &:hover {
-              background: transparent;
-            }
+						a {
+							@apply text-xs;
+						}
+					}
+				}
+			}
 
-            a {
-              @apply text-xs
-            }
-          }
-        }
-      }
+			li {
+				height: 45px;
 
+				a {
+					padding: 0;
 
+					&:hover {
+						@apply text-bl-orange-500;
+					}
+				}
 
-      li {
-        height: 45px;
-
-        a {
-          padding: 0;
-
-          &:hover {
-            @apply text-igb-orange-500;
-          }
-
-        }
-
-        &.current-menu-item {
-          @apply text-igb-orange-500;
-        }
-      }
-    }
-  }
+				&.current-menu-item {
+					@apply text-bl-orange-500;
+				}
+			}
+		}
+	}
 }
 
-
 li {
-  &.current-menu-item {
-    @apply text-igb-orange-500;
-  }
+	&.current-menu-item {
+		@apply bg-bl-dk-grey-800;
+		a {
+			@apply text-bl-orange-500;
+		}
+	}
 }
 
 /* purgecss end ignore */
 
 .no-scroll {
-  overflow: hidden;
+	overflow: hidden;
 }

@@ -8,42 +8,41 @@
 // H4: Azo Medium (CAPS) 500
 // body is Azo Sans Regular 400
 
-
 // Titles
 .heading-1 {
-  @apply text-white py-3 px-1 mt-2 text-3xl;
-  @apply font-azo;
-  font-weight: 900;
-  @apply uppercase;
+	@apply text-white py-3 px-1 mt-2 text-3xl;
+	@apply font-azo;
+	font-weight: 900;
+	@apply uppercase;
 }
 
 .heading-2 {
-  @apply text-igb-rich-blue-500 py-3 pt-2 px-1;
-  @apply font-azo;
-  font-weight: 900;
+	@apply text-bl-rich-blue-500 py-3 pt-2 px-1;
+	@apply font-azo;
+	font-weight: 900;
 }
 
 .heading-3 {
-  @apply text-white my-4;
-  @apply font-azo;
-  font-weight: 700;
+	@apply text-white my-4;
+	@apply font-azo;
+	font-weight: 700;
 }
 
 .heading-4 {
-  @apply leading-tight p-1 font-semibold;
-  @apply font-azo;
-  font-weight: 500;
-  @apply uppercase;
+	@apply leading-tight p-1 font-semibold;
+	@apply font-azo;
+	font-weight: 500;
+	@apply uppercase;
 }
 
 .heading-5 {
-  @apply leading-tight p-1 text-xs font-semibold;
-  @apply font-azo;
+	@apply leading-tight p-1 text-xs font-semibold;
+	@apply font-azo;
 }
 
 // Paragrapgh
 
 // Small print
 .small-print {
-  @apply text-xs text-gray-500 text-center my-6;
+	@apply text-xs text-gray-500 text-center my-6;
 }

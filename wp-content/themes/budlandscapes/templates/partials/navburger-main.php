@@ -1,7 +1,7 @@
 <!-- Burger menu -->
 <nav class="navburger-main">
     <div class="text-right p-2 inline-block">
-        <img src="/resources/img/pages/icons/ig-business-icon.png" alt="ingenie Business" width="50px" height="auto">
+        <img src="/resources/img/pages/logos/bud_logo_2022.svg" alt="Bud Landscapes" width="60px" height="auto">
     </div>
 
     <?php
@@ -10,7 +10,7 @@
             'theme_location' => 'burger-menu',
             'container_class' => 'text-sm sm:flex-grow',
             'menu_class' => '',
-            'add_li_class'  => 'flex-col text-igb-li-grey-100 block hover:bg-igb-dk-grey-900 hover:text-white'
+            'add_li_class'  => 'flex-col text-bl-li-grey-100 block hover:bg-bl-dk-grey-900 hover:text-white'
         )
     ); ?>
 

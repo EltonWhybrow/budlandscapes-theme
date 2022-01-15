@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <!-- Mobile Header -->
-<div class="bg-igb-orange-500 sm:block md:hidden">
+<div class="bg-bl-orange-500 sm:block md:hidden">
     <div class="w-full p-3 ">
         <h2 class="heading-2 uppercase text-3xl font-bold text-white"><?php the_title(); ?></h2>
     </div>

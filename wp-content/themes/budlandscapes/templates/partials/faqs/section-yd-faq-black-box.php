@@ -4,7 +4,7 @@ YD - faqs - black-box
 ============================= 
 -->
 <ul class="black-box">
-    <h3 class="heading-3 mb-1 ml-0 border-l-4 pl-2 border-igb-orange-500">Fitted black box</h3>
+    <h3 class="heading-3 mb-1 ml-0 border-l-4 pl-2 border-bl-orange-500">Fitted black box</h3>
 
     <?php
     $args = array(
