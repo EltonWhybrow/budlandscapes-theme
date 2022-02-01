@@ -14,44 +14,35 @@ Author URI: http://budlandscapes.co.uk
 // USAGE
 
 For use in landing pages/templates etc:
-<?php echo do_shortcode("[ligb_main_number]"); ?>
+<?php echo do_shortcode("[lbl_mobile_number]"); ?>
 
 For use in WYSIWYG Editor:
 [learner_get_a_quote_url]
 
 // ------------------------
 */
-
 // ------------------------
 // Budlandscapes CONTACT STATS
 // ------------------------
 
-function igb_main_number($atts)
+function bl_mobile_number($atts)
 {
-$igb_main_number = "<a class='primary-link-sm' href='tel:+44XXXXXXXXXXX'>+44 (0)XXXXX XXX XXX</a>";
-return $igb_main_number;
+$bl_mobile_number = "<a class='primary-link-sm' href='tel:07971147870'>07971 147 870</a>";
+return $bl_mobile_number;
 }
 
-function igb_main_email($atts)
+function bl_landline_number($atts)
 {
-$igb_main_email = "<a class='primary-link-sm' href='mailto:info@XXXX.com' target='_blank'
-    rel='noopener noreferrer'>info@XXXX.com</a>";
-return $igb_main_email;
+$bl_landline_number = "<a class='primary-link-sm' href='tel:01628410090'>01628 410 090</a>";
+return $bl_landline_number;
 }
 
-function igb_main_number_invert($atts)
+function bl_main_email($atts)
 {
-$igb_main_number_invert = "<a class='primary-link-sm text-white' href='tel:+44XXXXXXXXXXX'>+44 (0)XXXXX XXX XXX</a>";
-return $igb_main_number_invert;
+$bl_main_email = "<a class='primary-link-sm' href='mailto:steve@budlandscapes.co.uk' target='_blank'
+    rel='noopener noreferrer'>steve@budlandscapes.co.uk</a>";
+return $bl_main_email;
 }
-
-function igb_main_email_invert($atts)
-{
-$igb_main_email_invert = "<a class='primary-link-sm text-white'
-    href='mailto:info@XXXX.com' target='_blank' rel='noopener noreferrer'>info@XXXX.com</a>";
-return $igb_main_email_invert;
-}
-
 
 // ------------------------
 //
@@ -60,7 +51,6 @@ return $igb_main_email_invert;
 //
 // ------------------------
 
-add_shortcode('igb_main_number', 'igb_main_number');
-add_shortcode('igb_main_email', 'igb_main_email');
-add_shortcode('igb_main_number_invert', 'igb_main_number_invert');
-add_shortcode('igb_main_email_invert', 'igb_main_email_invert');
+add_shortcode('bl_mobile_number', 'bl_mobile_number');
+add_shortcode('bl_landline_number', 'bl_landline_number');
+add_shortcode('bl_main_email', 'bl_main_email');

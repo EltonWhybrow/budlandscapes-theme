@@ -54,7 +54,7 @@
 
                 <?php
                 if (!empty($link)) { ?>
-                - <a href="<?php echo $link ?>" class="underline" target="_blank">Find out more</a>
+                    - <a href="<?php echo $link ?>" class="underline" target="_blank">Find out more</a>
                 <?php }
                 ?>
 

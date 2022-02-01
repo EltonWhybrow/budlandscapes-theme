@@ -11,17 +11,6 @@ const FlexSliderSetUp = {
   init() {
 
     $(window).load(function () {
-      $('#slider-ydg .flexslider').flexslider({
-        animation: 'slide',
-        slideshowSpeed: 9000,
-        animationSpeed: 900,
-        pauseOnAction: true,
-        pauseOnHover: true,
-        controlNav: true,
-        directionNav: true,
-        controlsContainer: ".flexslider",
-      });
-
       $('#slider-quotes .flexslider').flexslider({
         initDelay: 3000,
         animation: 'slide',
@@ -43,14 +32,14 @@ const FlexSliderSetUp = {
       });
 
       $('#slider-heros .flexslider').flexslider({
-        initDelay: 5000,
+        initDelay: 7000,
         animation: 'slide',
-        slideshowSpeed: 5000,
-        animationSpeed: 750,
+        slideshowSpeed: 7000,
+        animationSpeed: 700,
         easing: "swing",
         startAt: 0,
         pauseOnAction: true,
-        pauseOnHover: true,
+        pauseOnHover: false,
         controlNav: true,
         directionNav: true,
         controlsContainer: ".flexslider-hero",

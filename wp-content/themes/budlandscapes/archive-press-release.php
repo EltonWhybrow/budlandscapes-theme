@@ -54,7 +54,7 @@
                                 <p class="p-2 sm:px-0 text-xs">
                                     <span class="mt-2 text-xs font-thin uppercase text-bl-orange-500"><?php the_date('F j, Y'); ?></span>
                                 </p>
-                                <span class="text-bl-rich-blue-500 right-0 bottom-0 pb-1 pr-2 absolute">
+                                <span class="text-bl-cadet-blue-500 right-0 bottom-0 pb-1 pr-2 absolute">
                                     <a href="<?php the_permalink() ?>">
                                         <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                                             <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />

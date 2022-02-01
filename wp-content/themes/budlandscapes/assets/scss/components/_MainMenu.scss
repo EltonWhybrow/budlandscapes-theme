@@ -11,15 +11,14 @@ Main desktop Navigaton Menu:
 	}
 
 	li {
-		height: 90px;
 		list-style: none;
 		transition: background-color 0.2s ease;
 
 		&:hover,
 		&:active {
-			@apply bg-bl-dk-grey-800;
-			@apply text-bl-orange-500;
-
+			// @apply bg-bl-dk-grey-800;
+			// @apply text-bl-orange-500;
+			@apply border-b-2 border-white;
 			> .sub-menu {
 				visibility: visible;
 				opacity: 1;
@@ -28,83 +27,19 @@ Main desktop Navigaton Menu:
 		}
 
 		a {
-			@apply px-3 py-4 mt-1;
+			@apply p-2;
 			box-sizing: border-box;
 			height: 100%;
 			display: inline-block;
 			text-decoration: none;
 			color: white;
-
-			span {
-				display: inline-block;
-				vertical-align: middle;
-			}
-		}
-
-		.sub-menu {
-			@apply z-50;
-			padding-bottom: 2rem;
-			visibility: hidden;
-			opacity: 0;
-			transition: visibility 0s, opacity 0.5s;
-			transition-duration: 0.3s;
-			text-align: left;
-			position: absolute;
-			top: 65px;
-			left: 0;
-			right: 0;
-			@apply bg-bl-dk-grey-800;
-			@apply text-bl-li-grey-200;
-
-			span.sub {
-				@apply text-xs py-1;
-			}
-
-			// products sub-sub
-			.sub-sub {
-				position: relative;
-
-				ul {
-					position: absolute;
-					top: 60%;
-					display: inline;
-					width: calc(100% * 6);
-					background: transparent;
-
-					li {
-						&:hover {
-							background: transparent;
-						}
-
-						a {
-							@apply text-xs;
-						}
-					}
-				}
-			}
-
-			li {
-				height: 45px;
-
-				a {
-					padding: 0;
-
-					&:hover {
-						@apply text-bl-orange-500;
-					}
-				}
-
-				&.current-menu-item {
-					@apply text-bl-orange-500;
-				}
-			}
 		}
 	}
 }
 
 li {
 	&.current-menu-item {
-		@apply bg-bl-dk-grey-800;
+		@apply border-b-2 border-bl-orange-500;
 		a {
 			@apply text-bl-orange-500;
 		}
