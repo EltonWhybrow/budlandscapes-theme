@@ -8,30 +8,31 @@
 function custom_post_type()
 {
 
-    $caseStudyLabels = array(
-        'name'                => _x('Case Studies', 'Post Type General Name'),
-        'singular_name'       => _x('Case Studies', 'Post Type Singular Name'),
-        'menu_name'           => __('Case Studies'),
+    $projectsLabels = array(
+        'name'                => _x('Projects', 'Post Type General Name'),
+        'singular_name'       => _x('Projects', 'Post Type Singular Name'),
+        'menu_name'           => __('Projects'),
         'parent_item_colon'   => __('Parent CS'),
         'all_items'           => __('View all'),
-        'view_item'           => __('View Case Studies'),
+        'view_item'           => __('View Project'),
         'add_new_item'        => __('Add New'),
         'add_new'             => __('Add New'),
-        'edit_item'           => __('Edit Case Studies'),
-        'update_item'         => __('Update Case Studies'),
-        'search_items'        => __('Search Case Studies'),
+        'edit_item'           => __('Edit Project'),
+        'update_item'         => __('Update Project'),
+        'search_items'        => __('Search Project'),
         'not_found'           => __('Not Found'),
         'not_found_in_trash'  => __('Not found in Trash'),
     );
 
-    $caseStudyArgs = array(
-        'label'               => __('case-study'),
-        'description'         => __('Case studies for ingenie Business'),
-        'labels'              => $caseStudyLabels,
+    $projectArgs = array(
+        'label'               => __('projects'),
+        'description'         => __('Projects'),
+        'labels'              => $projectsLabels,
         // Features this CPT supports in Post Editor
         'supports'            => array('title', 'editor', 'excerpt', 'thumbnail', 'custom-fields'),
         // You can associate this Custom Post Type with a taxonomy or custom taxonomy. 
         // 'taxonomies'          => array('learner-sections'),
+        'taxonomies'          => array(''),
         /* A hierarchical CPT is like Pages and can have
         * Parent and child items. A non-hierarchical CPT
         * is like Posts.
@@ -99,7 +100,7 @@ function custom_post_type()
     );
 
     register_post_type('heros', $heroArgs);
-    register_post_type('press-release', $caseStudyArgs);
+    register_post_type('projects', $projectArgs);
 }
 
 add_action('init', 'custom_post_type', 0);

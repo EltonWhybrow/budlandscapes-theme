@@ -6,6 +6,6 @@
             class="primary-link text-sm">press@ingenie.com</a>.
     </p>
 </div> -->
-<?php get_template_part('templates/partials/section', 'case-study'); ?>
+<?php get_template_part('templates/partials/section', 'project'); ?>
 
 <?php get_footer(); ?>

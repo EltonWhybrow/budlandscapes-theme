@@ -31,4 +31,20 @@ const BackToTop = {
 
 };
 
+$(document).ready(function () {
+
+  $(window).on("scroll", function () {
+
+    if ($(this).scrollTop() > 50)
+
+      $("header").removeClass("normal").addClass("active");
+
+    else
+
+      $("header").removeClass("active").addClass("normal");
+
+
+  })
+})
+
 export default BackToTop;
