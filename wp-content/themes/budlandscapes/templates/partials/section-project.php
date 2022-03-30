@@ -1,7 +1,7 @@
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
         <!-- Mobile Header -->
-        <div class="bg-bl-orange-500 sm:block md:hidden">
+        <div class="bg-teal-500 sm:block md:hidden">
             <div class="w-full p-3 ">
                 <h2 class="heading-2 text-3xl font-bold text-white"><?php the_title(); ?>XXXX</h2>
             </div>

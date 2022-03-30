@@ -4,8 +4,8 @@
 	cursor: pointer;
 
 	&.active {
-		@apply bg-bl-li-grey-500;
-		@apply border-bl-cadet-blue-500;
+		@apply bg-gray-500;
+		@apply border-blue-500;
 
 		+ .accordian-pane {
 			display: flex;

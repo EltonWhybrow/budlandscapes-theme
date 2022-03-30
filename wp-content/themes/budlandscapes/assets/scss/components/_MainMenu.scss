@@ -16,9 +16,7 @@ Main desktop Navigaton Menu:
 
 		&:hover,
 		&:active {
-			// @apply bg-bl-dk-grey-800;
-			// @apply text-bl-orange-500;
-			@apply border-b-2 border-white;
+			@apply border-b-2 border-orange-500;
 			> .sub-menu {
 				visibility: visible;
 				opacity: 1;
@@ -39,9 +37,9 @@ Main desktop Navigaton Menu:
 
 li {
 	&.current-menu-item {
-		@apply border-b-2 border-bl-orange-500;
+		@apply border-b-2 border-orange-500;
 		a {
-			@apply text-bl-orange-500;
+			@apply text-orange-500;
 		}
 	}
 }

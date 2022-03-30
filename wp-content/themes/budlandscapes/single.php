@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="bg-bl-orange-500">
+<div class="bg-teal-500">
 
     <div class="lg:container lg:mx-auto py-2">
 
@@ -12,11 +12,8 @@
                 <p class="py-0 text-right">
 
                     <a href="/blog" class="inline-flex primary-btn-sm text-sm uppercase">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 btn-icon-left" viewBox="0 0 20 20"
-                            fill="currentColor">
-                            <path fill-rule="evenodd"
-                                d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
-                                clip-rule="evenodd" />
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 btn-icon-left" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
                         </svg>
                         <span>Back</span>
                     </a>
@@ -27,8 +24,7 @@
 
                 <p class="py-4">
                     <?php if (has_post_thumbnail()) : ?>
-                    <img class="mx-auto w-2/3" src="<?php the_post_thumbnail_url('blog-large'); ?>"
-                        alt="<?php the_title(); ?>">
+                        <img class="mx-auto w-2/3" src="<?php the_post_thumbnail_url('blog-large'); ?>" alt="<?php the_title(); ?>">
                     <?php endif; ?>
                 </p>
 
@@ -41,7 +37,7 @@
 
     <div class="md:pb-12 pt-4 text-sm px-5">
 
-        <!-- <h2 class="heading-2 font-bold text-bl-orange-500 my-3 pl-0">Latest posts</h2> -->
+        <!-- <h2 class="heading-2 font-bold text-teal-500 my-3 pl-0">Latest posts</h2> -->
         <?php get_template_part('templates/partials/section', 'blogcontent'); ?>
 
     </div>

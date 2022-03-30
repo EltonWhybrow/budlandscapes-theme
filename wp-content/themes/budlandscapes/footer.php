@@ -1,5 +1,5 @@
 <!-- Site footer markup goes here -->
-<footer class="bg-bl-dk-grey-500 pt-12 pb-6">
+<footer class="bg-gray-500 pt-12 pb-6">
     <div class="lg:container lg:mx-auto">
 
         <div class="link-items flex flex-col sm:flex-row flex-wrap items-center sm:items-start justify-between p-2 text-white">
@@ -67,7 +67,7 @@
     </div>
 
     <!-- MODAL OVERLAY -->
-    <div id="modal-overlay" class="cursor-pointer close-modal z-75 fixed hidden top-0 left-0 w-screen h-screen flex items-center justify-center bg-bl-cadet-blue-700 bg-opacity-50 ">
+    <div id="modal-overlay" class="cursor-pointer close-modal z-75 fixed hidden top-0 left-0 w-screen h-screen flex items-center justify-center bg-blue-700 bg-opacity-50 ">
     </div>
 
 </footer>

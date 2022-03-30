@@ -9,34 +9,32 @@
 // body is Azo Sans Regular 400
 
 // Titles
-.heading-1 {
-	@apply text-white py-3 px-1 mt-2 text-3xl;
-	@apply font-azo;
-	font-weight: 900;
-	@apply uppercase;
+h1 {
+	@apply text-orange-500 py-2 text-3xl;
 }
 
-.heading-2 {
-	@apply text-bl-cadet-blue-500 py-3 pt-2 px-1;
-	@apply font-azo;
-	font-weight: 900;
+h2 {
+	@apply text-orange-500 py-2 text-2xl;
 }
 
-.heading-3 {
-	@apply text-white my-4;
-	@apply font-azo;
-	font-weight: 700;
+h3 {
+	@apply text-teal-500 py-2 text-xl;
 }
 
-.heading-4 {
-	@apply leading-tight p-1 font-semibold;
-	@apply font-azo;
-	font-weight: 500;
-	@apply uppercase;
+h4 {
+	@apply text-teal-500 py-1 text-lg;
 }
 
-.heading-5 {
-	@apply leading-tight p-1 text-xs font-semibold;
+h5 {
+	@apply text-teal-500 py-1 text-base;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	@apply font-azo;
 }
 

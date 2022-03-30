@@ -6,7 +6,7 @@ $menu-width: 320px;
 
 .navburger-main {
 	z-index: 999;
-	@apply bg-bl-dk-grey-700;
+	@apply bg-gray-700;
 	font-size: 1.3rem;
 	height: 100vh;
 	padding: 0 0;
@@ -25,10 +25,10 @@ $menu-width: 320px;
 		margin-bottom: 0.2rem;
 		list-style: none;
 		transition: background-color 0.2s ease;
-		@apply bg-bl-dk-grey-800;
+		@apply bg-gray-800;
 
 		&:hover {
-			@apply bg-bl-dk-grey-900;
+			@apply bg-gray-900;
 		}
 
 		a {
@@ -48,7 +48,7 @@ $menu-width: 320px;
 			display: none;
 			margin: 0;
 			padding: 0;
-			@apply bg-bl-dk-grey-500;
+			@apply bg-gray-500;
 
 			li {
 				transition: background-color 0.2s ease;
@@ -56,7 +56,7 @@ $menu-width: 320px;
 				margin-bottom: 0;
 
 				&:hover {
-					@apply bg-bl-dk-grey-700;
+					@apply bg-gray-700;
 				}
 
 				a {
@@ -92,7 +92,7 @@ $menu-width: 320px;
 	height: 3px;
 	margin-bottom: 5px;
 	position: relative;
-	@apply bg-bl-li-grey-100;
+	@apply bg-gray-100;
 	border-radius: 3px;
 	transform-origin: 4px 0px;
 	transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;

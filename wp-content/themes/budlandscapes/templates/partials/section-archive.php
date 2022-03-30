@@ -5,7 +5,7 @@
         <div class="standard-card p-0 m-0 relative flex flex-wrap">
             <h1>section-archive</h1>
             <?php if (has_post_thumbnail()) : ?>
-                <div class="w-full md:w-1/2"><a href="<?php the_permalink() ?>"><img class="object-cover object-center w-full h-full" src="<?php the_post_thumbnail_url('page-hero-mobile'); ?>" alt="<?php the_title(); ?>">
+                <div class="w-full md:w-1/2 "><a href="<?php the_permalink() ?>"><img class="object-cover object-center w-full h-full" src="<?php the_post_thumbnail_url('page-hero-mobile'); ?>" alt="<?php the_title(); ?>">
                     <?php endif; ?></a>
                 </div>
 

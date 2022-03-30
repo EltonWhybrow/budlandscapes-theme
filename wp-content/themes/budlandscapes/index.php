@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="bg-bl-orange-500">
+<div class="bg-teal-500">
 
     <div class="lg:container lg:mx-auto py-2 max-w-4xl">
 

@@ -8,7 +8,7 @@ get_header(); ?>
 
 <div class="sitemap">
 
-    <div class="bg-bl-orange-500 py-10">
+    <div class="bg-teal-500 py-10">
         <div class="container max-w-4xl mx-auto flex">
             <h1 class="w-2/5 px-5 heading-1 mt-0 font-black uppercase">Site map</h1>
             <div class="w-3/5 px-5 text-white">
@@ -51,12 +51,11 @@ get_header(); ?>
                     <?php while ($wpcpt->have_posts()) : $wpcpt->the_post(); ?>
 
 
-                    <li>
-                        <a href="<?php echo get_permalink($post->ID); ?>" rel="dofollow" title="<?php the_title(); ?>"
-                            class="primary-link text-xs">
-                            <?php the_title(); ?>
-                        </a>
-                    </li>
+                        <li>
+                            <a href="<?php echo get_permalink($post->ID); ?>" rel="dofollow" title="<?php the_title(); ?>" class="primary-link text-xs">
+                                <?php the_title(); ?>
+                            </a>
+                        </li>
 
                     <?php endwhile;
                     wp_reset_query(); ?>
@@ -91,12 +90,11 @@ get_header(); ?>
 
                     <?php while ($wpcpt->have_posts()) : $wpcpt->the_post(); ?>
 
-                    <li>
-                        <a href="<?php echo get_permalink($post->ID); ?>" rel="dofollow" title="<?php the_title(); ?>"
-                            class="primary-link text-xs">
-                            <?php the_title(); ?>
-                        </a>
-                    </li>
+                        <li>
+                            <a href="<?php echo get_permalink($post->ID); ?>" rel="dofollow" title="<?php the_title(); ?>" class="primary-link text-xs">
+                                <?php the_title(); ?>
+                            </a>
+                        </li>
 
                     <?php endwhile;
                     wp_reset_query(); ?>
@@ -132,12 +130,11 @@ get_header(); ?>
 
                     <?php while ($wpcpt->have_posts()) : $wpcpt->the_post(); ?>
 
-                    <li>
-                        <a href="<?php echo get_permalink($post->ID); ?>" rel="dofollow" title="<?php the_title(); ?>"
-                            class="primary-link text-xs">
-                            <?php the_title(); ?>
-                        </a>
-                    </li>
+                        <li>
+                            <a href="<?php echo get_permalink($post->ID); ?>" rel="dofollow" title="<?php the_title(); ?>" class="primary-link text-xs">
+                                <?php the_title(); ?>
+                            </a>
+                        </li>
 
                     <?php endwhile;
                     wp_reset_query(); ?>
@@ -173,12 +170,11 @@ get_header(); ?>
 
                     <?php while ($wppages->have_posts()) : $wppages->the_post(); ?>
 
-                    <li>
-                        <a href="<?php echo get_permalink($post->ID); ?>" rel="dofollow" title="<?php the_title(); ?>"
-                            class="primary-link text-xs">
-                            <?php the_title(); ?>
-                        </a>
-                    </li>
+                        <li>
+                            <a href="<?php echo get_permalink($post->ID); ?>" rel="dofollow" title="<?php the_title(); ?>" class="primary-link text-xs">
+                                <?php the_title(); ?>
+                            </a>
+                        </li>
 
                     <?php endwhile;
                     wp_reset_query(); ?>
@@ -214,12 +210,11 @@ get_header(); ?>
 
                     <?php while ($wpcpt->have_posts()) : $wpcpt->the_post(); ?>
 
-                    <li>
-                        <a href="<?php echo get_permalink($post->ID); ?>" rel="dofollow" title="<?php the_title(); ?>"
-                            class="primary-link text-xs">
-                            <?php the_title(); ?>
-                        </a>
-                    </li>
+                        <li>
+                            <a href="<?php echo get_permalink($post->ID); ?>" rel="dofollow" title="<?php the_title(); ?>" class="primary-link text-xs">
+                                <?php the_title(); ?>
+                            </a>
+                        </li>
 
                     <?php endwhile;
                     wp_reset_query(); ?>
@@ -255,12 +250,11 @@ get_header(); ?>
 
                     <?php while ($wpcpt->have_posts()) : $wpcpt->the_post(); ?>
 
-                    <li>
-                        <a href="<?php echo get_permalink($post->ID); ?>" rel="dofollow" title="<?php the_title(); ?>"
-                            class="primary-link text-xs">
-                            <?php the_title(); ?>
-                        </a>
-                    </li>
+                        <li>
+                            <a href="<?php echo get_permalink($post->ID); ?>" rel="dofollow" title="<?php the_title(); ?>" class="primary-link text-xs">
+                                <?php the_title(); ?>
+                            </a>
+                        </li>
 
                     <?php endwhile;
                     wp_reset_query(); ?>

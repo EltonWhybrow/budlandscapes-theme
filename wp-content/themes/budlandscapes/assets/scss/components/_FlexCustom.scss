@@ -9,7 +9,7 @@ Flexislider:
 	margin: 0;
 	border-radius: 0;
 	padding: 0;
-	@apply bg-bl-dk-grey-500;
+	@apply bg-gray-500;
 	border: 0;
 	overflow: hidden;
 	box-shadow: none;
@@ -23,7 +23,7 @@ Flexislider:
 	}
 
 	.flex-direction-nav a:before {
-		@apply text-bl-orange-500;
+		@apply text-teal-500;
 	}
 
 	.flex-direction-nav a {
@@ -56,6 +56,16 @@ Flexislider:
 
 		li {
 			height: 100%;
+			.slider-content {
+				@apply pt-10;
+			}
+			h1 {
+				@apply font-semibold text-white text-lg bg-teal-500 rounded-t-md px-5 inline-block;
+			}
+			p {
+				@apply text-sm px-5 py-3 max-w-lg rounded-sm;
+				background-color: rgba(56, 178, 172, 0.8);
+			}
 		}
 	}
 }

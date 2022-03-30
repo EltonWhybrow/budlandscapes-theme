@@ -7,47 +7,20 @@ html {
 	@apply antialiased;
 	font-size: 15px;
 	text-rendering: optimizeLegibility;
-	@apply text-bl-dk-grey-500;
+	@apply text-gray-500;
 
 	@screen md {
 		font-size: 18px;
 	}
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	@apply font-azo;
+p {
+	@apply py-1;
 }
 
 body {
 	font-weight: 400;
 	@apply font-azo;
-}
-
-h1 {
-	@apply text-3xl;
-	font-weight: 900;
-	@apply uppercase;
-}
-
-h2 {
-	@apply text-2xl;
-	font-weight: 900;
-}
-
-h3 {
-	@apply text-base;
-	font-weight: 500;
-}
-
-h4 {
-	@apply text-base;
-	font-weight: 500;
-	@apply uppercase;
 }
 
 .ig-break {

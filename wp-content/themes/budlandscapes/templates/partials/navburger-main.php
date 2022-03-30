@@ -10,7 +10,7 @@
             'theme_location' => 'burger-menu',
             'container_class' => 'text-sm sm:flex-grow',
             'menu_class' => '',
-            'add_li_class'  => 'flex-col text-bl-li-grey-100 block hover:bg-bl-dk-grey-900 hover:text-white'
+            'add_li_class'  => 'flex-col text-gray-100 block hover:bg-gray-900 hover:text-white'
         )
     ); ?>
 

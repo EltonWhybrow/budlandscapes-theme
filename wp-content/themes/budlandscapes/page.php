@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <!-- Mobile Header -->
-<div class="bg-bl-orange-500 sm:block md:hidden">
+<div class="bg-teal-500 sm:block md:hidden">
     <div class="w-full p-3 ">
         <h2 class="heading-2 uppercase text-3xl font-bold text-white"><?php the_title(); ?></h2>
     </div>
@@ -21,7 +21,7 @@
 <?php endif; ?>
 
 <!-- wysiwyg main content -->
-<section class="wysiwyg-content bg-bl-cadet-blue-500">
+<section class="wysiwyg-content bg-blue-500">
     <?php the_content(); ?>
 </section>
 

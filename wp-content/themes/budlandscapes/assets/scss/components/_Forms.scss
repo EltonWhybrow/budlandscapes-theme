@@ -10,10 +10,10 @@
 	}
 
 	.primary-btn {
-		@apply items-center px-3 py-2 text-base leading-none text-white border rounded-full border-bl-orange-500 bg-bl-orange-500 border-transparent #{!important};
+		@apply items-center px-3 py-2 text-base leading-none text-white border rounded-full border-teal-500 bg-teal-500 border-transparent #{!important};
 
 		&:hover {
-			@apply bg-bl-orange-600 #{!important};
+			@apply bg-teal-600 #{!important};
 		}
 
 		@screen md {
@@ -29,11 +29,11 @@ div.wpforms-container-full .wpforms-form .wpforms-field textarea.user-invalid,
 div.wpforms-container-full .wpforms-form .wpforms-field select.wpforms-error,
 div.wpforms-container-full .wpforms-form .wpforms-field select.user-invalid,
 div.wpforms-container-full .wpforms-form .wpforms-field.wpforms-has-error .choices__inner {
-	@apply border-bl-orange-500 #{!important};
+	@apply border-teal-500 #{!important};
 }
 
 div.wpforms-container-full .wpforms-form label.wpforms-error {
-	@apply text-bl-orange-500 py-1 text-xs #{!important};
+	@apply text-teal-500 py-1 text-xs #{!important};
 }
 
 .wpforms-confirmation-container-full,
@@ -53,10 +53,10 @@ div[submit-success] > .wpforms-confirmation-container-full:not(.wpforms-redirect
 		// }
 
 		.primary-btn {
-			@apply items-center px-3 py-2 text-base leading-none text-white border rounded-full border-white bg-bl-orange-500 border-transparent #{!important};
+			@apply items-center px-3 py-2 text-base leading-none text-white border rounded-full border-white bg-teal-500 border-transparent #{!important};
 
 			&:hover {
-				@apply bg-bl-orange-600 #{!important};
+				@apply bg-teal-600 #{!important};
 			}
 
 			@screen md {
@@ -72,7 +72,7 @@ div[submit-success] > .wpforms-confirmation-container-full:not(.wpforms-redirect
 	div.wpforms-container-full .wpforms-form .wpforms-field select.wpforms-error,
 	div.wpforms-container-full .wpforms-form .wpforms-field select.user-invalid,
 	div.wpforms-container-full .wpforms-form .wpforms-field.wpforms-has-error .choices__inner {
-		@apply border-bl-orange-700 #{!important};
+		@apply border-teal-700 #{!important};
 	}
 
 	div.wpforms-container-full .wpforms-form label.wpforms-error {
