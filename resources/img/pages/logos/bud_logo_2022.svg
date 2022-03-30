@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="180px" height="180px" viewBox="0 0 180 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="157px" height="172px" viewBox="0 0 157 172" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>bud_logo_2022</title>
     <defs>
         <polygon id="path-1" points="44.4096523 64.2471524 0 64.2471524 0 32.4301597 0 0.613166955 44.4096523 0.613166955 44.4096523 64.2471524"></polygon>
@@ -23,5 +23,9 @@
                 <path d="M11.9826631,0.137167714 C4.11176471,-0.852637094 1.56442894,3.83891107 1.56442894,3.83891107 C1.56442894,3.83891107 -3.38573535,10.0753145 4.32483378,11.8037796 C10.2643981,13.1344234 10.6283032,9.62473171 10.7316733,8.87762957 C10.9890439,7.01303992 16.0678935,9.53292678 16.0678935,9.53292678 L14.8559312,7.19876022 C12.9572959,3.54766786 23.7742434,10.2346541 25.801564,11.9800028 C25.801564,8.81431583 19.0656277,1.02883622 11.9826631,0.137167714 Z" id="Fill-1"></path>
             </g>
         </g>
+        <text id="Design-&amp;-Landscaping" font-family="KohinoorBangla-Regular, Kohinoor Bangla" font-size="18" font-weight="normal" line-spacing="22" fill="#FFFFFF">
+            <tspan x="8" y="59">Design &amp; </tspan>
+            <tspan x="8" y="81">Landscaping</tspan>
+        </text>
     </g>
 </svg>
