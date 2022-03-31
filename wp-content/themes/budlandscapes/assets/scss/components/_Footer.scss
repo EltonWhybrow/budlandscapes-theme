@@ -26,13 +26,13 @@ Footer
 		overflow: hidden;
 	}
 
-	a::after {
+	a.primary-link::after {
 		opacity: 1;
 		transform: translate3d(-100%, 0, 0);
 	}
 
-	a:hover::after,
-	a:focus::after {
+	a.primary-link:hover::after,
+	a.primary-link:focus::after {
 		transform: translate3d(0, 0, 0);
 	}
 }

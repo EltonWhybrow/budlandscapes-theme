@@ -1,24 +1,42 @@
 // WP Forms overides
 /* purgecss start ignore */
-.igb-form {
-	.igb-formfield {
-		width: 80% #{!important};
+.bl-form-call-back {
+	.wpforms-field-container,
+	.wpforms-submit-container {
+		width: auto !important;
+		display: inline-block;
 	}
 
-	.igb-message-formfield {
-		width: 80% #{!important};
+	.bl-formfield {
+		width: 32% #{!important};
+		display: inline-block;
+		margin-right: 4px #{!important};
 	}
 
 	.primary-btn {
-		@apply items-center px-3 py-2 text-base leading-none text-white border rounded-full border-teal-500 bg-teal-500 border-transparent #{!important};
+		@apply inline-block items-center px-3 py-2 text-base leading-none text-white border border-orange-500 bg-orange-500 border-transparent #{!important};
 
 		&:hover {
-			@apply bg-teal-600 #{!important};
+			@apply bg-orange-600 #{!important};
 		}
 
 		@screen md {
-			@apply mt-0 #{!important};
+			margin-top: -4px !important;
 		}
+	}
+}
+
+.bl-form-contact {
+	.primary-btn {
+		@apply inline-block items-center px-3 py-2 mt-3 text-base leading-none text-white border border-orange-500 bg-orange-500 border-transparent #{!important};
+
+		&:hover {
+			@apply bg-orange-600 #{!important};
+		}
+	}
+
+	.wpforms-field-label {
+		@apply text-white font-light text-lg #{!important};
 	}
 }
 
@@ -29,61 +47,23 @@ div.wpforms-container-full .wpforms-form .wpforms-field textarea.user-invalid,
 div.wpforms-container-full .wpforms-form .wpforms-field select.wpforms-error,
 div.wpforms-container-full .wpforms-form .wpforms-field select.user-invalid,
 div.wpforms-container-full .wpforms-form .wpforms-field.wpforms-has-error .choices__inner {
-	@apply border-teal-500 #{!important};
+	@apply border-alert-400 #{!important};
+}
+
+div.wpforms-container-full .wpforms-form label.wpforms-alert,
+div.wpforms-container-full .wpforms-form label.wpforms-error {
+	@apply text-alert-400 py-1 text-xs #{!important};
 }
 
 div.wpforms-container-full .wpforms-form label.wpforms-error {
-	@apply text-teal-500 py-1 text-xs #{!important};
+	position: absolute !important;
 }
 
 .wpforms-confirmation-container-full,
 div[submit-success] > .wpforms-confirmation-container-full:not(.wpforms-redirection-message) {
-	@apply border-success-500 #{!important};
-	@apply bg-success-500 #{!important};
-}
-
-.page-id-9 {
-	.igb-form {
-		// .igb-formfield {
-		//   width: 80% #{!important};
-		// }
-
-		// .igb-message-formfield {
-		//   width: 80% #{!important};
-		// }
-
-		.primary-btn {
-			@apply items-center px-3 py-2 text-base leading-none text-white border rounded-full border-white bg-teal-500 border-transparent #{!important};
-
-			&:hover {
-				@apply bg-teal-600 #{!important};
-			}
-
-			@screen md {
-				@apply mt-0 #{!important};
-			}
-		}
-	}
-
-	div.wpforms-container-full .wpforms-form .wpforms-field input.wpforms-error,
-	div.wpforms-container-full .wpforms-form .wpforms-field input.user-invalid,
-	div.wpforms-container-full .wpforms-form .wpforms-field textarea.wpforms-error,
-	div.wpforms-container-full .wpforms-form .wpforms-field textarea.user-invalid,
-	div.wpforms-container-full .wpforms-form .wpforms-field select.wpforms-error,
-	div.wpforms-container-full .wpforms-form .wpforms-field select.user-invalid,
-	div.wpforms-container-full .wpforms-form .wpforms-field.wpforms-has-error .choices__inner {
-		@apply border-teal-700 #{!important};
-	}
-
-	div.wpforms-container-full .wpforms-form label.wpforms-error {
-		@apply text-white py-1 text-xs #{!important};
-	}
-
-	.wpforms-confirmation-container-full,
-	div[submit-success] > .wpforms-confirmation-container-full:not(.wpforms-redirection-message) {
-		@apply border-success-500 #{!important};
-		@apply bg-success-500 #{!important};
-	}
+	@apply border-success-900 #{!important};
+	@apply bg-success-900 #{!important};
+	@apply text-white #{!important};
 }
 
 /* purgecss end ignore */

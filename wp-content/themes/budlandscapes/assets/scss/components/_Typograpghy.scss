@@ -10,23 +10,19 @@
 
 // Titles
 h1 {
-	@apply text-orange-500 py-2 text-3xl;
+	@apply text-orange-500;
 }
 
 h2 {
-	@apply text-orange-500 py-2 text-2xl;
+	@apply text-white;
 }
 
 h3 {
-	@apply text-teal-500 py-2 text-xl;
+	@apply text-gray-600;
 }
 
 h4 {
-	@apply text-teal-500 py-1 text-lg;
-}
-
-h5 {
-	@apply text-teal-500 py-1 text-base;
+	@apply text-teal-600;
 }
 
 h1,

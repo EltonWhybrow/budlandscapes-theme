@@ -41,7 +41,7 @@ Projects card
 
                             <div class="h-12">
 
-                                <h4 class="heading-4 my-2 min-h-full p-0"><?php the_title(); ?></h4>
+                                <h4 class="heading-4 my-2 min-h-full p-0"><?php the_title(); ?>AAAA</h4>
                             </div>
 
                             <p class="block leading-snug text-sm pr-3">

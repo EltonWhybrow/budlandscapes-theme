@@ -1,4 +1,4 @@
-<div class="flex flex-wrap lg:container lg:mx-auto justify-center p-2">
-    <p class="text-white p-8 text-xs text-center">
-        All rights reserved &copy; Budlandscapes Ltd | Site themed by <a class="primary-link-sm" href="//widesign.co.uk">WideSign</a></p>
+<div class="flex flex-wrap lg:container lg:mx-auto justify-center p-4">
+    <p class="text-white pt-20 text-xs text-center">
+        All rights reserved &copy;<?php echo date("Y"); ?> Bud Design &amp; Landscaping Ltd | Site themed by <a class="primary-link text-xs" href="//widesign.co.uk" target="_blank">Wide Sign</a></p>
 </div>

@@ -25,7 +25,7 @@ get_header(); ?>
 
             <div class="sitemap-about-us w-1/2 sm:w-1/3 px-2">
 
-                <h2 class="heading-2">About us</h2>
+                <h2 class="">About us</h2>
 
                 <ul class="standard-list ml-1">
 
@@ -65,7 +65,7 @@ get_header(); ?>
             </div>
             <div class="sitemap-core-capabilities w-1/2 sm:w-1/3 px-2">
 
-                <h2 class="heading-2">Core Capabilities</h2>
+                <h2 class="">Core Capabilities</h2>
 
                 <ul class="standard-list ml-1">
 
@@ -105,7 +105,7 @@ get_header(); ?>
 
             <div class="sitemap-expertise w-1/2 sm:w-1/3 px-2">
 
-                <h2 class="heading-2">Expertise</h2>
+                <h2 class="">Expertise</h2>
 
                 <ul class="standard-list ml-1">
 
@@ -145,7 +145,7 @@ get_header(); ?>
 
             <div class="sitemap-get-in-touch w-1/2 sm:w-1/3 px-2">
 
-                <h2 class="heading-2">Get in touch</h2>
+                <h2 class="">Get in touch</h2>
 
                 <ul class="standard-list ml-1">
 
@@ -185,7 +185,7 @@ get_header(); ?>
 
             <div class="sitemap-news w-1/2 sm:w-1/3 px-2">
 
-                <h2 class="heading-2">News</h2>
+                <h2 class="">News</h2>
 
                 <ul class="standard-list ml-1">
 
@@ -225,7 +225,7 @@ get_header(); ?>
 
             <div class="sitemap-utilities w-1/2 sm:w-1/3 px-2">
 
-                <h2 class="heading-2">Utilities</h2>
+                <h2 class="">Utilities</h2>
 
                 <ul class="standard-list ml-1">
 

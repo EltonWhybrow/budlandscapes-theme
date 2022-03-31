@@ -1,67 +1,42 @@
 <!-- Site footer markup goes here -->
-<footer class="bg-gray-500 pt-12 pb-6">
+<footer class="bg-gray-900 pt-16 pb-4">
     <div class="lg:container lg:mx-auto">
 
-        <div class="link-items flex flex-col sm:flex-row flex-wrap items-center sm:items-start justify-between p-2 text-white">
-            <div class="sm:w-full p-0 sm:p-4">
+        <div class="link-items flex flex-col sm:flex-row flex-wrap items-center sm:items-start justify-between p-2 text-white space-y-14 md:space-y-0">
+            <div class="sm:w-full p-0 sm:p-24">
                 <img class="m-auto" src="/resources/img/pages/logos/bud_logo_2022.svg" alt="Bud Landscapes" width="170px" height="auto">
             </div>
 
-            <div class="sm:w-1/4 p-0 text-xs sm:p-1 text-center">
+            <div class="sm:w-1/3 p-0 text-xs sm:p-1 text-center">
+                <h3 class="text-base font-semibold text-white mb-3 pl-0">Get in touch</h3>
+                <ul>
+                    <li><a class='primary-link' href='tel:<?php echo do_shortcode("[bl_landline_number]"); ?>'><?php echo do_shortcode("[bl_landline_number]"); ?></a>
+                    </li>
+                    <li><a class='primary-link' href='tel:<?php echo do_shortcode("[bl_mobile_number]"); ?>'><?php echo do_shortcode("[bl_mobile_number]"); ?></a>
+                    </li>
+                    <li>
+                        <a class='primary-link' href='mailto:<?php echo do_shortcode("[bl_main_email]"); ?>'><?php echo do_shortcode("[bl_main_email]"); ?></a>
+                    </li>
+                </ul>
+            </div>
 
-                <h3 class="heading-3 text-sm text-white mb-3 pl-0">Social media</h3>
+            <div class="sm:w-1/3 p-0 text-xs sm:p-1 text-center">
+                <h3 class="text-base font-semibold text-white mb-3 pl-0">Company</h3>
+                <ul>
+                    <li><a class="primary-link" href="/privacy-policy">Privacy policy</a></li>
+                    <li><a class="primary-link" href="/sitemap">Sitemap</a></li>
+                </ul>
+            </div>
+
+            <div class="sm:w-1/3 p-0 text-xs sm:p-1 text-center">
+
+                <h3 class="text-base font-semibold text-white mb-3 pl-0">Social media</h3>
                 <div class="">
                     <?php get_template_part('templates/partials/social/footer', 'icons'); ?>
                 </div>
             </div>
 
-            <div class="sm:w-1/4 p-0 text-xs sm:p-1 text-center">
-                <h3 class="heading-3 text-sm text-white mb-3 pl-0">Helper</h3>
-                <ul>
-                    <li><a class="primary-link-sm" href="/privacy-policy">Privacy policy</a></li>
-                    <li><a class="primary-link-sm" href="/sitemap">Sitemap</a></li>
-                </ul>
-            </div>
-
-            <div class="sm:w-1/4 p-0 sm:p-1 text-center">
-                <h3 class="heading-3 text-sm text-white mb-3 pl-0">Email</h3>
-                <ul>
-                    <li>
-                        <?php echo do_shortcode("[bl_main_email]"); ?>
-                    </li>
-
-                </ul>
-            </div>
-
-            <div class="sm:w-1/4 p-0 text-xs sm:p-1 text-center">
-                <h3 class="heading-3 text-sm text-white mb-3 pl-0">Get in touch</h3>
-                <ul>
-                    <li><span class="bottom-1 inline-block relative">Landline:</span>
-                        <?php echo do_shortcode("[bl_landline_number]");
-                        ?>
-                    </li>
-                    <li><span class="bottom-1 inline-block relative">Mobile:</span>
-                        <?php echo do_shortcode("[bl_mobile_number]");
-                        ?>
-                    </li>
-                </ul>
-            </div>
-
-
-
-
-
         </div>
-
-
-
-        <!-- <div class="flex lg:container lg:mx-auto justify-center p-0">
-
-            <div class="px-5">
-               
-            </div>
-        </div> -->
-
 
         <?php get_template_part('templates/partials/copyright'); ?>
     </div>

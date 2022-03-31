@@ -1,12 +1,17 @@
+//buttons
 .primary-btn {
-	@apply items-center px-3 py-2 leading-none text-base uppercase text-white rounded-md  bg-teal-500;
+	@apply items-center px-3 py-2 leading-none text-base text-white rounded-md  bg-teal-500;
 
 	&:hover {
 		@apply bg-teal-600;
 	}
+}
 
-	@screen md {
-		@apply mt-0;
+.primary-btn-sm {
+	@apply items-center px-2 py-1 text-sm uppercase text-white rounded-md  bg-teal-500 border border-teal-500;
+
+	&:hover {
+		@apply bg-teal-600 border-teal-600;
 	}
 }
 
@@ -16,24 +21,45 @@
 	&:hover {
 		@apply bg-teal-600;
 	}
+}
 
-	@screen md {
-		@apply mt-0;
+.tertiary-btn {
+	@apply items-center px-3 p-2 leading-5 text-sm text-teal-500 rounded-md bg-transparent border border-teal-500;
+
+	&:hover {
+		@apply bg-teal-600 border-teal-600 text-white;
 	}
 }
 
-.primary-link {
-	@apply items-center text-base leading-none bg-transparent rounded-full text-teal-500;
+.tertiary-btn-sm {
+	@apply items-center px-2 py-1 text-sm text-teal-500 rounded-md bg-transparent;
 
 	&:hover {
-		@apply text-teal-200;
+		@apply underline text-teal-600;
+	}
+}
+
+//links
+.primary-link {
+	@apply items-center text-base leading-none text-teal-500;
+
+	&:hover {
+		@apply text-teal-400;
 	}
 }
 
 .secondary-link {
-	@apply items-center text-base leading-none bg-transparent rounded-full text-gray-500;
+	@apply items-center text-base leading-none text-gray-700;
 
 	&:hover {
-		@apply text-teal-400;
+		@apply text-teal-500;
+	}
+}
+
+.tertiary-link {
+	@apply items-center text-sm leading-none text-gray-200 underline;
+
+	&:hover {
+		@apply text-teal-500 no-underline;
 	}
 }

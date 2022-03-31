@@ -1,8 +1,7 @@
-<div class="pt-20 pb-32">
-    <div class="lg:container lg:mx-auto">
-        <h2 class="text-center">Partners (h2)</h2>
+<div class="py-28 bg-white">
+    <div class="max-w-7xl mx-auto">
 
-        <div class="flex flex-col sm:flex-row flex-wrap items-center sm:items-start justify-between p-2 text-white">
+        <div class="flex flex-col sm:flex-row flex-wrap items-center sm:items-start justify-between p-2 text-white space-y-6 md:space-y-0">
 
             <div class="w-full md:w-1/5 p-0 sm:p-1 text-center">
                 <picture>

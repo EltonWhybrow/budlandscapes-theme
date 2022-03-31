@@ -7,7 +7,7 @@
         <div class="flex md:pb-12 pt-4 text-white">
 
             <div class="sm:w-2/5 text-sm px-5 hidden md:block">
-                <h2 class="heading-2 font-bold text-white mb-3 pl-0 text-right">SORRY! <br /> PAGE NOT FOUND</h2>
+                <h2 class=" font-bold text-white mb-3 pl-0 text-right">SORRY! <br /> PAGE NOT FOUND</h2>
             </div>
 
             <div class="sm:w-3/5 px-5 text-sm">

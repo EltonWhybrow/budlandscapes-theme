@@ -1,9 +1,9 @@
-<?php get_header(); ?>
+<?php get_header('frontpage'); ?>
 
 <!-- Mobile Header -->
 <div class="bg-teal-500 sm:block md:hidden">
     <div class="w-full p-3 ">
-        <h2 class="heading-2 uppercase text-3xl font-bold text-white"><?php the_title(); ?></h2>
+        <h2 class="uppercase text-3xl font-bold text-white"><?php the_title(); ?></h2>
     </div>
 
     <?php if (get_field('page_mobile_image')) { ?>
@@ -21,9 +21,11 @@
 <?php endif; ?>
 
 <!-- wysiwyg main content -->
-<section class="wysiwyg-content bg-blue-500">
+<div class="wysiwyg-content bg-white">
+
     <?php the_content(); ?>
-</section>
+
+</div>
 
 <?php get_template_part('templates/partials/section', 'partners');  ?>
 
