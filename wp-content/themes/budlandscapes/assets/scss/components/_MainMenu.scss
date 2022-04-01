@@ -13,6 +13,7 @@ Main desktop Navigaton Menu:
 	li {
 		list-style: none;
 		transition: background-color 0.2s ease;
+		position: relative;
 
 		&:hover,
 		&:active {
@@ -25,12 +26,46 @@ Main desktop Navigaton Menu:
 		}
 
 		a {
-			@apply p-2;
+			@apply p-2 pb-1;
 			box-sizing: border-box;
 			height: 100%;
 			display: inline-block;
 			text-decoration: none;
 			color: white;
+		}
+
+		.sub-menu {
+			@apply z-50;
+			visibility: hidden;
+			opacity: 0;
+			transition: visibility 0s, opacity 0.5s;
+			transition-duration: 0.3s;
+			text-align: left;
+			position: absolute;
+			top: 45px;
+			left: 0;
+			right: 0;
+			@apply bg-transparent;
+			@apply text-white;
+
+			li {
+				position: relative;
+				background: transparent;
+				width: 100%;
+				display: inline-block;
+				text-align: left;
+				padding: 0;
+				margin: 0;
+				border: none;
+
+				a {
+					padding: 5px 8px;
+
+					&:hover {
+						@apply text-orange-500;
+					}
+				}
+			}
 		}
 	}
 }

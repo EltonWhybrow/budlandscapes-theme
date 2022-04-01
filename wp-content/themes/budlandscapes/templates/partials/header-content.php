@@ -1,4 +1,4 @@
- <div class="xl:container xl:mx-auto flex justify-evenly">
+ <div class="xl:container xl:mx-auto flex justify-between md:justify-evenly">
      <div class="flex-none p-5 text-left lg:hidden absolute left-0">
 
          <span class="inline-block">
@@ -11,7 +11,7 @@
          </span>
      </div>
 
-     <a href="/" class="inline-block pl-5 md:pl-7 py-3 md:pb-4 md:pt-2 w-48">
+     <a href="/" class="inline-block pl-5 md:pl-7 py-3 md:pb-4 md:pt-2 w-36">
          <img src="/resources/img/pages/logos/bud_logo_2022.svg" class="main-logo" alt="Bud Landscapes">
      </a>
 
@@ -19,7 +19,7 @@
          <?php get_template_part('templates/partials/navbar', 'main'); ?>
      </div>
 
-     <div class="flex-none pt-16 pb-2 pr-3 text-right text-sm md:text-base">
+     <div class="flex-none pt-5 pb-2 pr-3 text-right text-sm md:text-base">
          <p>
              <a class='relative primary-btn text-lg pr-10' href='tel:<?php echo do_shortcode("[bl_mobile_number]"); ?>'>
                  <svg xmlns="http://www.w3.org/2000/svg" class="absolute top-1 right-1 inline-block w-6 h-6 m-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">

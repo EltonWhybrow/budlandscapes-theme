@@ -1,22 +1,18 @@
 <?php get_header('frontpage'); ?>
 
 <!-- Mobile Header -->
-<div class="bg-teal-500 sm:block md:hidden">
-    <div class="w-full p-3 ">
-        <h2 class="uppercase text-3xl font-bold text-white"><?php the_title(); ?></h2>
+<?php if (get_field('page_mobile_image')) { ?>
+    <div class="sm:block md:hidden relative">
+        <img class="h-full w-full object-cover" src="<?php the_field('page_mobile_image'); ?>" alt="<?php the_title(); ?>">
+        <h2 class="text-3xl uppercase bg-teal-500 p-2 text-white absolute bottom-10 left-28"><?php the_title(); ?></h2>
     </div>
-
-    <?php if (get_field('page_mobile_image')) { ?>
-        <div class="py-0">
-            <img class="h-full w-full object-cover" src="<?php the_field('page_mobile_image'); ?>" alt="<?php the_title(); ?>">
-        </div>
-    <?php } ?>
-</div>
+<?php } ?>
 
 <!-- Main Header -->
 <?php if (has_post_thumbnail()) : ?>
     <div class="py-0 hidden md:block">
         <img class="h-full w-full object-cover" src="<?php the_post_thumbnail_url('page-hero-banner'); ?>" alt="<?php the_title(); ?>">
+        <!-- <h2 class="text-sm text-center bg-teal-500 p-2 text-white"><?php the_title(); ?></h2> -->
     </div>
 <?php endif; ?>
 
@@ -30,11 +26,3 @@
 <?php get_template_part('templates/partials/section', 'partners');  ?>
 
 <?php get_footer(); ?>
-
-
-<?php // if (is_page(array('contact-us'))) {
-// get_footer('contact-us'); // either in about us, or contact, or management page is in view
-//} else {
-// get_footer();   // none of the page about us, contact or management is in view
-//}
-?>

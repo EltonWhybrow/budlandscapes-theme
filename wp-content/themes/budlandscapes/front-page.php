@@ -79,7 +79,7 @@
 									<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
 								</svg>
 							</a>
-							<a class="relative primary-link p-2 text-sm hover:text-teal-700 hover:underline" href="/contact">
+							<a class="relative primary-link p-2 text-sm hover:text-teal-700 hover:underline" href="/contact#contact-form">
 								Enquiry
 							</a>
 						</p>
@@ -248,7 +248,7 @@
 								<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
 							</svg>
 						</a>
-						<a class="relative primary-link p-2 text-sm hover:underline" href="/about">
+						<a class="relative primary-link p-2 text-sm hover:underline" href="/testimonials">
 							Testimonials
 						</a>
 					</p>
@@ -271,7 +271,7 @@
 				<h2 class="text-2xl uppercase">What Our <span class="bg-orange-500 px-1 text-white transform inline-block -skew-y-2">Customers</span> Say</h2>
 				<p class="text-xl">Testimonials from our beloved customers and clients</p>
 				<p class="text-teal-500 text-sm pb-4 max-w-lg mx-auto">
-					Like what you reading? To see all feedback about budlandscapes, their workmanship and work ethics <a href="/about" class="primary-link text-sm underline">view all testimonials</a>.
+					Like what you reading? To see all feedback about budlandscapes, their workmanship and work ethics <a href="/testimonials" class="primary-link text-sm underline">view all testimonials</a>.
 				</p>
 			</div>
 

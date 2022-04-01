@@ -23,7 +23,7 @@
             <div class="sm:w-1/3 p-0 text-xs sm:p-1 text-center">
                 <h3 class="text-base font-semibold text-white mb-3 pl-0">Company</h3>
                 <ul>
-                    <li><a class="primary-link" href="/privacy-policy">Privacy policy</a></li>
+                    <li><a class="primary-link" href="/testimonials">Testimonials</a></li>
                     <li><a class="primary-link" href="/sitemap">Sitemap</a></li>
                 </ul>
             </div>
