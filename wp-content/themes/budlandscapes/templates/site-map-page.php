@@ -7,67 +7,37 @@
 get_header(); ?>
 
 <div class="sitemap">
+    <section class="w-full bg-gray-700">
+        <div class="flex max-w-5xl mx-auto pt-5 md:pt-10 pb-12 space-x-5">
 
-    <div class="bg-teal-500 py-10">
-        <div class="container max-w-4xl mx-auto flex">
-            <h1 class="w-2/5 px-5 heading-1 mt-0 font-black uppercase">Site map</h1>
-            <div class="w-3/5 px-5 text-white">
-
-                <p class="text-xs">Quick reference to all pages contained within our site.
-                <p>
+            <div class="px-5 text-base">
+                <h4 class="pt-6 font-semibold">Who we are?</h4>
+                <h2 class="text-2xl uppercase">Site <span class="bg-orange-500 px-1 text-white transform inline-block -skew-y-2">Map</span></h2>
+                <p class="py-2">Quick reference to all pages contained within our site.
+                </p>
+                <!-- <a class="relative inline-flex tertiary-btn pr-6 space-x-2" href="/contact">
+                    Homepage
+                    <svg xmlns="http://www.w3.org/2000/svg" class="absolute top-3 right-1 inline-block w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                    </svg>
+                </a>
+                <a class="relative primary-link p-2 text-sm hover:underline" href="/about">
+                    Leave us feedback
+                </a> -->
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="container max-w-4xl py-14 text-sm mx-auto">
+    <div class="container max-w-4xl py-14 text-xl mx-auto">
 
         <div class="flex flex-wrap">
 
-            <div class="sitemap-about-us w-1/2 sm:w-1/3 px-2">
 
-                <h2 class="">About us</h2>
+            <div class="sitemp-pages w-1/2 px-2">
 
-                <ul class="standard-list ml-1">
+                <h3 class="">Pages</h3>
 
-                    <?php
-                    $wpcpt = new WP_Query(
-                        array(
-                            'post_type' => 'page', // Change this to the slug of your Custom Post Type (cpt)
-                            'posts_per_page' => -1, // -1 shows all cpt posts
-                            'post_status' => 'publish', // only shows published cpt pages
-                            'orderby' => 'title', // orders by cpt post title
-                            'order' => 'ASC', // orders cpt posts title alphabetically
-                            'tax_query' => array(
-                                array(
-                                    'taxonomy' => 'category',
-                                    'field' => 'slug',
-                                    'terms' => 'about-us',
-                                )
-                            ),
-                        )
-                    );
-                    ?>
-
-                    <?php while ($wpcpt->have_posts()) : $wpcpt->the_post(); ?>
-
-
-                        <li>
-                            <a href="<?php echo get_permalink($post->ID); ?>" rel="dofollow" title="<?php the_title(); ?>" class="primary-link text-xs">
-                                <?php the_title(); ?>
-                            </a>
-                        </li>
-
-                    <?php endwhile;
-                    wp_reset_query(); ?>
-
-                </ul>
-
-            </div>
-            <div class="sitemap-core-capabilities w-1/2 sm:w-1/3 px-2">
-
-                <h2 class="">Core Capabilities</h2>
-
-                <ul class="standard-list ml-1">
+                <ul class="standard-list">
 
                     <?php
                     $wpcpt = new WP_Query(
@@ -77,21 +47,22 @@ get_header(); ?>
                             'post_status' => 'publish', // only shows published cpt pages
                             'orderby' => 'title', // orders by cpt post title
                             'order' => 'ASC', // orders cpt posts title alphabetically
-                            'tax_query' => array(
-                                array(
-                                    'taxonomy' => 'category',
-                                    'field' => 'slug',
-                                    'terms' => 'core-capabilities',
-                                )
-                            ),
+                            // 'tax_query' => array(
+                            //     array(
+                            //         'taxonomy' => 'category',
+                            //         'field' => 'slug',
+                            //         'terms' => 'about-us',
+                            //     )
+                            // ),
                         )
                     );
                     ?>
 
                     <?php while ($wpcpt->have_posts()) : $wpcpt->the_post(); ?>
 
+
                         <li>
-                            <a href="<?php echo get_permalink($post->ID); ?>" rel="dofollow" title="<?php the_title(); ?>" class="primary-link text-xs">
+                            <a href="<?php echo get_permalink($post->ID); ?>" rel="dofollow" title="<?php the_title(); ?>" class="primary-link text-base">
                                 <?php the_title(); ?>
                             </a>
                         </li>
@@ -102,28 +73,27 @@ get_header(); ?>
                 </ul>
 
             </div>
+            <div class="sitemap-projects w-1/2 px-2">
 
-            <div class="sitemap-expertise w-1/2 sm:w-1/3 px-2">
+                <h3 class="">Case Studies</h3>
 
-                <h2 class="">Expertise</h2>
-
-                <ul class="standard-list ml-1">
+                <ul class="standard-list">
 
                     <?php
                     $wpcpt = new WP_Query(
                         array(
-                            'post_type' => 'page', // Change this to the slug of your Custom Post Type (cpt)
+                            'post_type' => 'projects', // Change this to the slug of your Custom Post Type (cpt)
                             'posts_per_page' => -1, // -1 shows all cpt posts
                             'post_status' => 'publish', // only shows published cpt pages
                             'orderby' => 'title', // orders by cpt post title
                             'order' => 'ASC', // orders cpt posts title alphabetically
-                            'tax_query' => array(
-                                array(
-                                    'taxonomy' => 'category',
-                                    'field' => 'slug',
-                                    'terms' => 'expertise',
-                                )
-                            ),
+                            // 'tax_query' => array(
+                            //     array(
+                            //         'taxonomy' => 'category',
+                            //         'field' => 'slug',
+                            //         'terms' => 'core-capabilities',
+                            //     )
+                            // ),
                         )
                     );
                     ?>
@@ -131,127 +101,7 @@ get_header(); ?>
                     <?php while ($wpcpt->have_posts()) : $wpcpt->the_post(); ?>
 
                         <li>
-                            <a href="<?php echo get_permalink($post->ID); ?>" rel="dofollow" title="<?php the_title(); ?>" class="primary-link text-xs">
-                                <?php the_title(); ?>
-                            </a>
-                        </li>
-
-                    <?php endwhile;
-                    wp_reset_query(); ?>
-
-                </ul>
-
-            </div>
-
-            <div class="sitemap-get-in-touch w-1/2 sm:w-1/3 px-2">
-
-                <h2 class="">Get in touch</h2>
-
-                <ul class="standard-list ml-1">
-
-                    <?php
-                    $wppages = new WP_Query(
-                        array(
-                            'post_type' => 'page', // slug of pages
-                            'posts_per_page' => -1, // -1 shows all pages
-                            'post_status' => 'publish', // only shows published pages
-                            'orderby' => 'title', // orders by page title
-                            'order' => 'ASC', // orders page title alphabetically
-                            'tax_query' => array(
-                                array(
-                                    'taxonomy' => 'category',
-                                    'field' => 'slug',
-                                    'terms' => 'get-in-touch',
-                                )
-                            ),
-                        )
-                    );
-                    ?>
-
-                    <?php while ($wppages->have_posts()) : $wppages->the_post(); ?>
-
-                        <li>
-                            <a href="<?php echo get_permalink($post->ID); ?>" rel="dofollow" title="<?php the_title(); ?>" class="primary-link text-xs">
-                                <?php the_title(); ?>
-                            </a>
-                        </li>
-
-                    <?php endwhile;
-                    wp_reset_query(); ?>
-
-                </ul>
-
-            </div>
-
-            <div class="sitemap-news w-1/2 sm:w-1/3 px-2">
-
-                <h2 class="">News</h2>
-
-                <ul class="standard-list ml-1">
-
-                    <?php
-                    $wpcpt = new WP_Query(
-                        array(
-                            'post_type' => 'page', // slug of pages
-                            'posts_per_page' => -1, // -1 shows all pages
-                            'post_status' => 'publish', // only shows published pages
-                            'orderby' => 'title', // orders by page title
-                            'order' => 'ASC', // orders page title alphabetically
-                            'tax_query' => array(
-                                array(
-                                    'taxonomy' => 'category',
-                                    'field' => 'slug',
-                                    'terms' => 'news',
-                                )
-                            ),
-                        )
-                    );
-                    ?>
-
-                    <?php while ($wpcpt->have_posts()) : $wpcpt->the_post(); ?>
-
-                        <li>
-                            <a href="<?php echo get_permalink($post->ID); ?>" rel="dofollow" title="<?php the_title(); ?>" class="primary-link text-xs">
-                                <?php the_title(); ?>
-                            </a>
-                        </li>
-
-                    <?php endwhile;
-                    wp_reset_query(); ?>
-
-                </ul>
-
-            </div>
-
-            <div class="sitemap-utilities w-1/2 sm:w-1/3 px-2">
-
-                <h2 class="">Utilities</h2>
-
-                <ul class="standard-list ml-1">
-
-                    <?php
-                    $wpcpt = new WP_Query(
-                        array(
-                            'post_type' => 'page', // slug of pages
-                            'posts_per_page' => -1, // -1 shows all pages
-                            'post_status' => 'publish', // only shows published pages
-                            'orderby' => 'title', // orders by page title
-                            'order' => 'ASC', // orders page title alphabetically
-                            'tax_query' => array(
-                                array(
-                                    'taxonomy' => 'category',
-                                    'field' => 'slug',
-                                    'terms' => 'utilities',
-                                )
-                            ),
-                        )
-                    );
-                    ?>
-
-                    <?php while ($wpcpt->have_posts()) : $wpcpt->the_post(); ?>
-
-                        <li>
-                            <a href="<?php echo get_permalink($post->ID); ?>" rel="dofollow" title="<?php the_title(); ?>" class="primary-link text-xs">
+                            <a href="<?php echo get_permalink($post->ID); ?>" rel="dofollow" title="<?php the_title(); ?>" class="primary-link text-base">
                                 <?php the_title(); ?>
                             </a>
                         </li>
@@ -263,7 +113,6 @@ get_header(); ?>
 
             </div>
         </div>
-
     </div>
 
 </div><!-- sitemap -->

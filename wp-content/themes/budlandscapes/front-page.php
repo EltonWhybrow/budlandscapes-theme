@@ -270,9 +270,6 @@
 			<div class="px-5 text-center">
 				<h2 class="text-2xl uppercase">What Our <span class="bg-orange-500 px-1 text-white transform inline-block -skew-y-2">Customers</span> Say</h2>
 				<p class="text-xl">Testimonials from our beloved customers and clients</p>
-				<p class="text-teal-500 text-sm pb-4 max-w-lg mx-auto">
-					Like what you reading? To see all feedback about budlandscapes, their workmanship and work ethics <a href="/testimonials" class="primary-link text-sm underline">view all testimonials</a>.
-				</p>
 			</div>
 
 			<div class="mx-2 flex flex-wrap md:flex-nowrap xl:max-w-5xl xl:mx-auto pt-5 md:pt-20 space-x-5 space-y-5 md:space-y-0">
@@ -288,7 +285,10 @@
 				<div class="py-0 w-full md:w-4/5">
 					<div class="px-5">
 						<p class="text-2xl pb-2 text-gray-200">"We were delighted with Bud Landscapes knowledge of all things green and the efficiency with which the work was carried out. The landscaping was completed within budget and our garden now looks cared for and managed!"</p>
-						<h4 class="text-xl text-right py-3 pr-10">- JULIE HASWELL, Windsor</h4>
+						<h4 class="text-xl text-right pt-4 pr-10">- JULIE HASWELL, Windsor</h4>
+						<p class="text-teal-500 text-xs text-right pr-10">
+							Read more <a href="/testimonials" class="primary-link text-xs underline">feedback</a>
+						</p>
 					</div>
 				</div>
 			</div>

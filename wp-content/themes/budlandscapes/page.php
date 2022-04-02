@@ -1,10 +1,10 @@
-<?php get_header('frontpage'); ?>
+<?php get_header(); ?>
 
 <!-- Mobile Header -->
 <?php if (get_field('page_mobile_image')) { ?>
     <div class="sm:block md:hidden relative">
         <img class="h-full w-full object-cover" src="<?php the_field('page_mobile_image'); ?>" alt="<?php the_title(); ?>">
-        <h2 class="text-3xl uppercase bg-teal-500 p-2 text-white absolute bottom-10 left-28"><?php the_title(); ?></h2>
+        <h2 class="text-xl bg-teal-500 py-1 text-white px-5"><?php the_title(); ?></h2>
     </div>
 <?php } ?>
 

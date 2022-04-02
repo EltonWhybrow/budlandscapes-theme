@@ -6,19 +6,13 @@
 
 get_header(); ?>
 
-
 <!-- Mobile Header -->
-<div class="bg-teal-500 sm:block md:hidden">
-    <div class="w-full p-3 ">
-        <h2 class=" text-3xl font-bold text-white"><?php the_title(); ?></h2>
+<?php if (get_field('page_mobile_image')) { ?>
+    <div class="sm:block md:hidden relative">
+        <img class="h-full w-full object-cover" src="<?php the_field('page_mobile_image'); ?>" alt="<?php the_title(); ?>">
+        <h2 class="text-xl bg-teal-500 py-1 text-white px-5"><?php the_title(); ?></h2>
     </div>
-
-    <?php if (get_field('page_mobile_image')) { ?>
-        <div class="py-0">
-            <img class="h-full w-full object-cover" src="<?php the_field('page_mobile_image'); ?>" alt="<?php the_title(); ?>">
-        </div>
-    <?php } ?>
-</div>
+<?php } ?>
 
 <!-- Main Header -->
 <?php if (has_post_thumbnail()) : ?>
@@ -27,46 +21,75 @@ get_header(); ?>
     </div>
 <?php endif; ?>
 
-<div class="bg-teal-500">
+<!-- <header class="relative flex items-center justify-center h-96 overflow-hidden">
+    <video autoplay loop muted class="absolute top-0 w-auto z-10">
+        <source src="/resources/img/pages/projects/video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+    </video>
+</header> -->
 
-    <div class="lg:container lg:mx-auto py-2">
+<!-- wysiwyg main content -->
+<div class="wysiwyg-content bg-white">
 
-        <div class="flex md:pb-3 pt-2 text-white">
+    <section class="w-full bg-gray-700">
+        <div class="max-w-5xl mx-auto pt-5 md:pt-10 pb-12 space-x-5">
 
-            <div class="sm:w-2/5 text-sm px-5 hidden md:block">
-                <h2 class=" font-bold text-white mb-3 pl-0 text-right">Projects</h2>
+            <div class="px-5 text-base">
+                <h4 class="pt-6 font-semibold">Past projects</h4>
+                <h2 class="text-2xl uppercase">A selection of past projects developing <span class="bg-orange-500 px-1 text-white transform inline-block -skew-y-2">garden spaces</span> for clients</h2>
+                <p class="py-2">Get in touch if you want to discuss anything around a planned project you have in mind.</p>
+
             </div>
 
-            <div class="sm:w-3/5 px-5 text-sm">
-                <!-- <p class="py-2">
-                    Nullam eget metus nibh. Suspendisse tincidunt purus auctor, ullamcorper libero id, mollis tortor.
-                    Nullam massa lacus, dapibus et arcu et, placerat porttitor tellus. Duis libero justo, lobortis
-                    accumsan malesuada ac, congue pulvinar est. </p> -->
-
-                <p class="py-4">
-                    <a href="/blog" class="inline-flex primary-btn border-white">
-                        <span>Projectx</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 button-icon-right" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
-                        </svg>
-                    </a>
-                </p>
-            </div>
+            <p class="inline-flex space-x-2 pb-4">
+                <a class="relative inline-flex primary-btn pr-6" href="/contact">
+                    Get in touch
+                    <svg xmlns="http://www.w3.org/2000/svg" class="absolute top-3 right-1 inline-block w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                    </svg>
+                </a>
+                <a class="relative primary-link p-2 text-sm hover:text-teal-700 hover:underline" href="#quick-quote">
+                    Call back?
+                </a>
+            </p>
         </div>
-    </div>
+    </section>
 </div>
 
 
-<section class="container mx-auto md:py-10 pb-3 max-w-4xl">
-
-    <div class="md:pb-12 pt-4 text-sm px-5">
-
-
-        <h2 class=" font-bold text-teal-500 my-3 pl-0">Latest Studies</h2>
+<section class="w-full bg-gray-200">
+    <div class="flex max-w-5xl mx-auto pb-12 px-5">
 
         <?php get_template_part('templates/partials/section', 'projects-list'); ?>
 
     </div>
 </section>
+
+<!-- THE FORM -->
+<section id="quick-quote" class="w-full bg-gray-700">
+    <div class="flex max-w-5xl mx-auto py-20 space-x-5 ">
+
+        <div class="px-5 text-base">
+            <h4 class="pt-6 font-semibold">Eager to get started?</h4>
+            <h2 class="text-2xl uppercase">Looking for a <span class="bg-orange-500 px-1 text-white transform inline-block -skew-y-2">hassel-free</span> quote</h2>
+            <p class="py-2">The first step is a initial consultation to discuss your garden design project and what you are looking to achieve. Get in touch on our contact page if you want a <a class="relative text-base text-white hover:underline" href="/contact">more detailed quote</a>. Alternatively, fill out this quick quote form and a member of the team with call you back.</p>
+            <p>
+                <!-- <a class="relative inline-flex tertiary-btn pr-6 space-x-2" href="/contact">
+						Contact us
+						<svg xmlns="http://www.w3.org/2000/svg" class="absolute top-3 right-1 inline-block w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+							<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+						</svg>
+					</a> -->
+                <!-- <a class="relative primary-link p-2 text-sm hover:underline" href="/about">
+							Testimonials
+						</a> -->
+            </p>
+            <?php echo do_shortcode('[wpforms id="153" title="false"]'); ?>
+
+        </div>
+    </div>
+</section>
+
+<?php get_template_part('templates/partials/section', 'partners');  ?>
 
 <?php get_footer(); ?>

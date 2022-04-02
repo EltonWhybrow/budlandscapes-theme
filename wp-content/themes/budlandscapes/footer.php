@@ -24,8 +24,7 @@
                 <h3 class="text-base font-semibold text-white mb-3 pl-0">Company</h3>
                 <ul>
                     <li><a class="primary-link" href="/testimonials">Testimonials</a></li>
-                    <li><a class="primary-link" href="/sitemap">Sitemap</a></li>
-                </ul>
+                    <li><a class="primary-link" href="/site-map">Sitemap</a></li e </ul>
             </div>
 
             <div class="sm:w-1/3 p-0 text-xs sm:p-1 text-center">

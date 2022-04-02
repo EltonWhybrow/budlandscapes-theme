@@ -68,10 +68,18 @@ Flexislider:
 			}
 
 			p + p {
-				@apply leading-4 pb-2 pt-0 mb-1;
+				@apply leading-4 pt-0 mb-1;
+				padding-bottom: 5px;
 				font-size: 25px;
 				a {
 					@apply inline-block w-20;
+					top: 0px;
+					height: 27px;
+					transition: top 0.5s;
+					&:hover {
+						position: relative;
+						top: 2px;
+					}
 				}
 			}
 		}
