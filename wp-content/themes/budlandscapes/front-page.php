@@ -163,7 +163,7 @@
 						</div>
 
 						<p class="inline-flex space-x-2 py-4 absolute bottom-2">
-							<a class="relative inline-flex primary-btn pr-6" href="/services">
+							<a class="relative inline-flex primary-btn pr-6" href="/about">
 								Find out more
 								<svg xmlns="http://www.w3.org/2000/svg" class="absolute top-3 right-1 inline-block w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
 									<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
@@ -301,7 +301,7 @@
 					</svg>
 				</a>
 			</p> -->
-
+		</div>
 	</section>
 
 

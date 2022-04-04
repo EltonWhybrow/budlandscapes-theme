@@ -36,8 +36,11 @@ module.exports = {
       // ],
     },
     extend: {
+      transitionProperty: {
+        'width': 'width'
+      },
       height: {
-        // igb: '28rem'
+        '100': '25rem'
       },
       colors: {
         'info': {
@@ -257,7 +260,7 @@ module.exports = {
 
       ,
       backgroundImage: {
-        // 'home-hero-sm': "url('https://staging.ingenie.com/resources/images/maskhead/isometric-road-home-mob.svg')",
+        // 'home-hero-sm': "url('https://staging.budlandscapes.com/resources/images/maskhead/isometric-road-home-mob.svg')",
       }
 
       ,

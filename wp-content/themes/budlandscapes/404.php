@@ -22,9 +22,9 @@
         <div class="flex max-w-5xl mx-auto pt-5 md:pt-10 pb-12 space-x-5">
 
             <div class="px-5 text-base">
-                <h4 class="pt-6 font-semibold">Who we are?</h4>
+                <h4 class="pt-6 font-semibold">You found the weeds!</h4>
                 <h2 class="text-2xl uppercase">SORRY! <span class="bg-orange-500 px-1 text-white transform inline-block -skew-y-2">PAGE NOT FOUND</span></h2>
-                <p class="py-2"> This is somewhat embarrassing, isn’t it? Try again or return to our homepage
+                <p class="py-2"> This is somewhat embarrassing, isn’t it? Go back to homepage or try again.
                 </p>
                 <a class="relative inline-flex tertiary-btn pr-6 space-x-2" href="/contact">
                     Homepage

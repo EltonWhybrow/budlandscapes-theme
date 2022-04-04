@@ -72,7 +72,7 @@ function custom_post_type()
 
     $heroArgs = array(
         'label'               => __('heros'),
-        'description'         => __('ingenie Business Hero Banner'),
+        'description'         => __('Buds Hero Banners'),
         'labels'              => $heroLabels,
         // Features this CPT supports in Post Editor
         'supports'            => array('title', 'editor', 'author', 'thumbnail', 'custom-fields'),

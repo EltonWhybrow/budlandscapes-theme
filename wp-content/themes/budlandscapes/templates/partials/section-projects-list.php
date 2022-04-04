@@ -3,7 +3,7 @@
 Projects card
 ============================= 
 -->
-<div class="grid gap-6 grid-cols-1">
+<div class="grid grid-cols-2 grid-flow-grid auto-row-max gap-0 overflow-auto">
 
     <?php
     $args = array(
@@ -22,50 +22,45 @@ Projects card
     $featured_query = new WP_Query($args);
     if ($featured_query->have_posts()) : while ($featured_query->have_posts()) : $featured_query->the_post(); ?>
 
+            <div class="standard-card w-full h-80 p-0 m-0 relative flex flex-wrap border-0 group">
 
-            <div class="">
-                <div class="standard-card p-0 m-0 relative flex flex-wrap">
+                <?php if (has_post_thumbnail()) : ?>
+                    <img class="object-cover object-center w-full h-full" src="<?php the_post_thumbnail_url('page-project'); ?>" alt="<?php the_title(); ?>">
+                <?php endif; ?>
 
-                    <?php if (has_post_thumbnail()) : ?>
-                        <div class="w-full md:w-1/2"><a href="<?php the_permalink() ?>"><img class="object-cover object-center w-full h-full" src="<?php the_post_thumbnail_url('page-hero-mobile'); ?>" alt="<?php the_title(); ?>">
-                            <?php endif; ?></a>
-                        </div>
+                <a href="<?php the_permalink() ?>">
+                    <div class="absolute transition ease-in-out duration-300 bg-gray-900 opacity-30 hover:opacity-0 top-0 left-0 w-full h-full hover:transition-opacity">
+                    </div>
+                </a>
 
-                        <div class="md:w-1/2 p-4 pt-1">
+                <div class="absolute py-1 px-2 bottom-10 left-0 bg-gray-800">
 
-                            <?php if (get_field('logo')) { ?>
-                                <p class="p-2 sm:px-0 text-xs">
-                                    <img class="w-1/2 mx-auto md:float-right" src="<?php the_field('logo'); ?>" alt="<?php the_title(); ?>">
-                                </p>
-                            <?php } ?>
+                    <h2 class="text-sm uppercase"><?php the_title(); ?></h2>
+                    <p class="p-0 text-right">
+                        <a href="<?php the_permalink() ?>" class="inline-flex primary-link text-xs">
+                            <span>View</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </p>
 
-                            <div class="h-12">
 
-                                <h4 class="heading-4 my-2 min-h-full p-0"><?php the_title(); ?>AAAA</h4>
-                            </div>
-
-                            <p class="block leading-snug text-sm pr-3">
+                    <!-- <p class="block leading-snug text-sm pr-3">
                                 <?php
-                                $excerpt = get_the_excerpt();
+                                // $excerpt = get_the_excerpt();
 
-                                $excerpt = substr($excerpt, 0, 120);
-                                $result = substr($excerpt, 0, strrpos($excerpt, ' '));
-                                echo "$result..";
+                                // $excerpt = substr($excerpt, 0, 120);
+                                // $result = substr($excerpt, 0, strrpos($excerpt, ' '));
+                                // echo "$result..";
                                 ?>
-                            </p>
+                            </p> -->
 
-                            </p>
-
-                            <a href="<?php the_permalink() ?>" class="inline-flex primary-link-sm py-2">
-                                <span>Read more</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 button-icon-right" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
-                                </svg>
-                            </a>
-
-                        </div>
+                    <?php // the_content(); 
+                    ?>
                 </div>
             </div>
+
 
     <?php endwhile;
     else : endif; ?>

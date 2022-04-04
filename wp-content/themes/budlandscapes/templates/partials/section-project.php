@@ -1,17 +1,13 @@
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-        <!-- Mobile Header -->
-        <div class="bg-teal-500 sm:block md:hidden">
-            <div class="w-full p-3 ">
-                <h2 class=" text-3xl font-bold text-white"><?php the_title(); ?>XXXX</h2>
-            </div>
 
-            <?php if (get_field('page_mobile_image')) { ?>
-                <div class="py-0">
-                    <img class="h-full w-full object-cover" src="<?php the_field('page_mobile_image'); ?>" alt="<?php the_title(); ?>">
-                </div>
-            <?php } ?>
-        </div>
+        <!-- Mobile Header -->
+        <?php if (get_field('page_mobile_image')) { ?>
+            <div class="sm:block md:hidden relative">
+                <img class="h-full w-full object-cover" src="<?php the_field('page_mobile_image'); ?>" alt="<?php the_title(); ?>">
+                <!-- <h2 class="text-xl bg-teal-500 py-1 text-white px-5"><?php the_title(); ?></h2> -->
+            </div>
+        <?php } ?>
 
         <!-- Main Header -->
         <?php if (has_post_thumbnail()) : ?>
@@ -20,14 +16,115 @@
             </div>
         <?php endif; ?>
 
-        <h1>section-projects xdx</h1>
+
+        <div class="bg-gray-700">
+            <div class="flex justify-items-center py-3 space-x-3  max-w-4xl mx-auto">
+                <div class="flex-none text-right pl-3 lg:pl-0">
+                    <a href="/projects" class="inline-flex primary-btn uppercase">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+                        </svg>
+                        <span>Back</span>
+                    </a>
+                </div>
+                <div class="flex-1">
+                    <h2 class="text-xl uppercase pt-1"><?php the_title(); ?></h2>
+                </div>
+            </div>
+
+            <div class="flex flex-wrap">
+
+                <?php if (get_field('img-1')) { ?>
+                    <img class="w-1/2 mx-auto object-cover" src="<?php the_field('img-1'); ?>" alt="<?php the_title(); ?>">
+                <?php } ?>
+
+                <?php if (get_field('img-2')) { ?>
+                    <img class="w-1/2 mx-auto object-cover" src="<?php the_field('img-2'); ?>" alt="<?php the_title(); ?>">
+                <?php } ?>
+
+                <?php if (get_field('img-3')) { ?>
+                    <img class="w-1/2 md:w-2/3 mx-auto object-cover" src="<?php the_field('img-3'); ?>" alt="<?php the_title(); ?>">
+                <?php } ?>
+
+                <div class="w-1/2 md:w-1/3 mx-auto bg-gray-700 p-10">
+                    <h3 class="text-3xl font-semibold"><?php the_title(); ?></h3>
+                    <?php the_content(); ?>
+                </div>
+
+                <?php if (get_field('img-4')) { ?>
+                    <img class="w-full md:w-1/2 mx-auto object-cover" src="<?php the_field('img-4'); ?>" alt="<?php the_title(); ?>">
+                <?php } ?>
+
+                <?php if (get_field('img-5')) { ?>
+                    <img class="w-full md:w-1/2 mx-auto object-cover" src="<?php the_field('img-5'); ?>" alt="<?php the_title(); ?>">
+                <?php } ?>
+
+                <?php if (get_field('img-6')) { ?>
+                    <img class="w-full mx-auto object-cover" src="<?php the_field('img-6'); ?>" alt="<?php the_title(); ?>">
+                <?php } ?>
+
+            </div>
+
+            <?php if (get_field('video-1')) { ?>
+                <div class="justify-items-center lg:py-10 bg-gray-700">
+                    <div class="w-full text-center">
+                        <div class="w-full mx-auto">
+
+                            <div class="relative flex items-center justify-center h-80 md:h-96 overflow-hidden object-cover">
+                                <video autoplay controls muted class="absolute top-0 w-auto z-10">
+                                    <source src="<?php the_field('video-1'); ?>" type="video/mp4" />
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            <?php } ?>
+
+            <div class="flex flex-wrap">
+
+                <?php if (get_field('img-7')) { ?>
+                    <img class="w-full md:w-1/2 mx-auto object-cover" src="<?php the_field('img-7'); ?>" alt="<?php the_title(); ?>">
+                <?php } ?>
+
+                <?php if (get_field('img-8')) { ?>
+                    <img class="w-full md:w-1/2 mx-auto object-cover" src="<?php the_field('img-8'); ?>" alt="<?php the_title(); ?>">
+                <?php } ?>
+
+                <?php if (get_field('img-9')) { ?>
+                    <img class="w-full mx-auto object-cover" src="<?php the_field('img-9'); ?>" alt="<?php the_title(); ?>">
+                <?php } ?>
+
+                <?php if (get_field('img-10')) { ?>
+                    <img class="w-full md:w-1/2 mx-auto object-cover" src="<?php the_field('img-10'); ?>" alt="<?php the_title(); ?>">
+                <?php } ?>
+
+                <?php if (get_field('img-11')) { ?>
+                    <img class="w-full md:w-1/2 mx-auto object-cover" src="<?php the_field('img-11'); ?>" alt="<?php the_title(); ?>">
+                <?php } ?>
+
+            </div>
+
+            <div class="flex justify-items-center py-3 space-x-3  max-w-4xl mx-auto">
+                <div class="flex-none text-right pl-3 lg:pl-0">
+                    <a href="/projects" class="inline-flex primary-btn uppercase">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+                        </svg>
+                        <span>Back</span>
+                    </a>
+                </div>
+                <div class="flex-1">
+                    <h2 class="text-xl uppercase pt-1"><?php the_title(); ?></h2>
+                </div>
+            </div>
+        </div>
 
         <!-- wysiwyg content -->
-        <section class="wysiwyg-content">
-            <?php the_content(); ?>
-        </section>
-
-
+        <!-- <section class="wysiwyg-content">
+      
+        </section> -->
 
 
 

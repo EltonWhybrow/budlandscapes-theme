@@ -21,13 +21,6 @@ get_header(); ?>
     </div>
 <?php endif; ?>
 
-<!-- <header class="relative flex items-center justify-center h-96 overflow-hidden">
-    <video autoplay loop muted class="absolute top-0 w-auto z-10">
-        <source src="/resources/img/pages/projects/video.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-    </video>
-</header> -->
-
 <!-- wysiwyg main content -->
 <div class="wysiwyg-content bg-white">
 
@@ -36,7 +29,7 @@ get_header(); ?>
 
             <div class="px-5 text-base">
                 <h4 class="pt-6 font-semibold">Past projects</h4>
-                <h2 class="text-2xl uppercase">A selection of past projects developing <span class="bg-orange-500 px-1 text-white transform inline-block -skew-y-2">garden spaces</span> for clients</h2>
+                <h2 class="text-2xl uppercase">A selection of previous <span class="bg-orange-500 px-1 text-white transform inline-block -skew-y-2">garden spaces</span> developed for clients</h2>
                 <p class="py-2">Get in touch if you want to discuss anything around a planned project you have in mind.</p>
 
             </div>
@@ -73,17 +66,7 @@ get_header(); ?>
             <h4 class="pt-6 font-semibold">Eager to get started?</h4>
             <h2 class="text-2xl uppercase">Looking for a <span class="bg-orange-500 px-1 text-white transform inline-block -skew-y-2">hassel-free</span> quote</h2>
             <p class="py-2">The first step is a initial consultation to discuss your garden design project and what you are looking to achieve. Get in touch on our contact page if you want a <a class="relative text-base text-white hover:underline" href="/contact">more detailed quote</a>. Alternatively, fill out this quick quote form and a member of the team with call you back.</p>
-            <p>
-                <!-- <a class="relative inline-flex tertiary-btn pr-6 space-x-2" href="/contact">
-						Contact us
-						<svg xmlns="http://www.w3.org/2000/svg" class="absolute top-3 right-1 inline-block w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-							<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
-						</svg>
-					</a> -->
-                <!-- <a class="relative primary-link p-2 text-sm hover:underline" href="/about">
-							Testimonials
-						</a> -->
-            </p>
+
             <?php echo do_shortcode('[wpforms id="153" title="false"]'); ?>
 
         </div>

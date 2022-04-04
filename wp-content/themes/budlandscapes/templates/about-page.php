@@ -82,6 +82,29 @@ get_header(); ?>
                         </p>
             </div>
 
+            <!-- // contractors time -->
+            <div class="pb-10 px-5">
+                <h3 class="text-gray-600 text-2xl uppercase tracking-wide">Approved Contractors<h3>
+                        <p>We work alongside some fantastic firms with distinguished reputations. We are approved contractors for the likes of
+                            <a href="https://lancerscott.co.uk/" class="primary-link" target="_blank">
+                                Lancer Scott
+                            </a>,
+                            <a href="https://adamson.co.uk/" class="primary-link" target="_blank">
+                                Adamson Construction
+                            </a>,
+                            <a href="https://www.hc-one.co.uk/" class="primary-link" target="_blank">
+                                HC ONE - The Kind Care Company
+                            </a>,
+                            <a href="http://www.wcr-construction.co.uk/" class="primary-link" target="_blank">
+                                wrc.org
+                            </a> and
+                            <a href="https://www.rugglesandjeffery.co.uk/" class="primary-link" target="_blank">
+                                Ruggle &amp; Jeffery
+                            </a>.
+                        </p>
+                        <p>Bud Design & Landscaping Limited has designed and built the grounds and gardens on numerous retirement developments throughout the UK. Instructed by both private and commercial clients, the practice has become recognised for its work for the recently retired through to the elderly and those with special needs.</p>
+            </div>
+
             <div class="flex flex-wrap md:flex-nowrap pb-5">
                 <div class="hidden md:block px-5 w-full md:w-2/5">
                     <picture>
@@ -94,11 +117,12 @@ get_header(); ?>
                     <!-- // our staff -->
 
                     <h3 class="text-gray-600 text-2xl uppercase tracking-wide">Our staff<h3>
-                            <p>We pride ourselves in supporting our personnel by providing the very best training and the highest quality tools.
-                                All Staff are CRB Checked, have attended Health and safety awareness courses and have their CSCS cards. We supply risk assessments and method statements on work where needed.
+                            <p>
+                                Our work is carried out only to the highest of standards and each job is personally overseen by company director and owner Steve Corio who is an expert in his field. Gardens landscaped to perfection and maintained in pristine condition. We believe that quality is what differentiates us from the competition.
                             </p>
                             <p>
-                                Our skilled gardeners have been providing high quality landscaping services to domestic customers throughout Maidenhead and surrounding areas for many years, now due to on-going success and expansion we can also undertake larger commercial garden maintenance contracts for businesses and corporate companies throughout the area.
+                                We pride ourselves in supporting our personnel by providing the very best training and the highest quality tools.
+                                All staff are CRB Checked, have attended health and safety awareness courses and have their CSCS cards. We supply risk assessments and method statements on work where needed.
                             </p>
 
                 </div>
@@ -116,6 +140,12 @@ get_header(); ?>
             <div class="pb-5 px-5">
                 <h3 class="text-gray-600 text-2xl uppercase tracking-wide">Work Ethics<h3>
                         <p>Our gardeners always take great pride in their work, whether fencing, laying drives & patios, or simply providing regular gardening duties such as grass cutting & general garden maintenance. We are all passionate about gardening; no job is too big or small and all get the same high attention to detail. As we all know, it's important to be as eco-friendly as possible, so to do our bit for the environment we always use sustainable soil, bark mulch & recycled compost, and have a strict policy of recycling as much waste as we can.
+                        </p>
+                        <p>
+                            We believe if you entrust us with your beloved garden you have complete open communication with us and can contact the office or Steve Corio directly via email or telephone with any queries you may have. Bud Design & landscaping pride themselves on punctuality, there is nothing worse than waiting in for a tradesman who doesn't turn up on time. When we say 8am we mean 8am.
+                        </p>
+                        <p>
+                            Our skilled gardeners have been providing high quality landscaping services to domestic customers throughout Maidenhead and surrounding areas for many years, now due to on-going success and expansion we can also undertake larger commercial garden maintenance contracts for businesses and corporate companies throughout the area.
                         </p>
             </div>
         </div>

@@ -4,7 +4,7 @@ const $window = window.$window || $(window);
 const Accordian = {
 
   init() {
-    // ingenie simple accordian
+    // buds simple accordian
     $(".accordian").bind("click", function () {
 
       var $this = $(this);
