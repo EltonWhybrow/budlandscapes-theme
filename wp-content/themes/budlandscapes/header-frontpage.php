@@ -32,14 +32,6 @@
                     </svg>
                     <?php echo do_shortcode("[bl_mobile_number]"); ?></a>
             </p>
-            <!-- <p>
-             <a class='primary-link text-sm' href='mailto:<?php echo do_shortcode("[bl_main_email]"); ?>'><?php echo do_shortcode("[bl_main_email]"); ?>
-             </a>
-         </p> -->
-
-            <!-- <h4 class="text-white">
-             Call for a <span class="bg-orange-500 p-1 text-white uppercase transform inline-block -skew-y-1">HASSLE FREE</span> quote
-         </h4> -->
 
             <h5 class="text-gray-400 pt-3 leading-5">
                 Call for a <span class="uppercase">HASSLE-FREE</span> quote <br />or <a class='primary-link text-sm' href='#request-callback'>request a callback

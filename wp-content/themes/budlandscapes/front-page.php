@@ -3,8 +3,9 @@
 <div class="wysiwyg-content bg-white">
 
 	<!-- HERO SLIDER from content -->
-	<?php the_content(); ?>
-
+	<section class="hero-slider py-0">
+		<?php echo do_shortcode('[hero-slides number="10"]'); ?>
+	</section>
 
 	<!-- THE FORM -->
 	<section id="request-callback" class="w-full bg-gray-700">
