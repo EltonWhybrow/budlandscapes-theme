@@ -40,5 +40,4 @@
 
         </div>
     </div>
-    <?php get_template_part('templates/partials/header-content'); ?>
 </header>
