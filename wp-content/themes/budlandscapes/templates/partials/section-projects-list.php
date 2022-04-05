@@ -3,7 +3,7 @@
 Projects card
 ============================= 
 -->
-<div class="grid grid-cols-2 grid-flow-grid auto-row-max gap-0 overflow-auto">
+<div class="grid grid-cols-1 md:grid-cols-2 grid-flow-grid auto-row-max gap-0 overflow-auto">
 
     <?php
     $args = array(
@@ -29,7 +29,7 @@ Projects card
                 <?php endif; ?>
 
                 <a href="<?php the_permalink() ?>">
-                    <div class="absolute transition ease-in-out duration-300 bg-gray-900 opacity-30 hover:opacity-0 top-0 left-0 w-full h-full hover:transition-opacity">
+                    <div class="absolute transition ease-in-out duration-300 bg-gray-900 opacity-0 hover:opacity-40 top-0 left-0 w-full h-full hover:transition-opacity">
                     </div>
                 </a>
 
@@ -38,8 +38,8 @@ Projects card
                     <h2 class="text-sm uppercase"><?php the_title(); ?></h2>
                     <p class="p-0 text-right">
                         <a href="<?php the_permalink() ?>" class="inline-flex primary-link text-xs">
-                            <span>View</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                            <span class="group-hover:text-orange-500">View</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 group-hover:text-orange-500" viewBox="0 0 20 20" fill="currentColor">
                                 <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
                             </svg>
                         </a>

@@ -40,7 +40,7 @@ module.exports = {
         'width': 'width'
       },
       height: {
-        '100': '25rem'
+        '100': '48rem'
       },
       colors: {
         'info': {

@@ -51,7 +51,7 @@ get_header(); ?>
 
 
 <section class="w-full bg-gray-200">
-    <div class="flex max-w-5xl mx-auto pb-12 px-5">
+    <div class="md:flex lg:max-w-5xl mx-auto pb-12 lg:px-5">
 
         <?php get_template_part('templates/partials/section', 'projects-list'); ?>
 
