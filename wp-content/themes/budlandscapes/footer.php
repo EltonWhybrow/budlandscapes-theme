@@ -7,7 +7,7 @@
                 <img class="m-auto" src="/resources/img/pages/logos/bud_logo_2022.svg" alt="Bud Landscapes" width="170px" height="auto">
             </div>
 
-            <div class="sm:w-1/3 p-0 text-xs sm:p-1 text-center">
+            <div class="sm:w-1/4 p-0 text-xs sm:p-1 text-center">
                 <h3 class="text-base font-semibold text-white mb-3 pl-0">Get in touch</h3>
                 <ul>
                     <li><a class='primary-link' href='tel:<?php echo do_shortcode("[bl_landline_number]"); ?>'><?php echo do_shortcode("[bl_landline_number]"); ?></a>
@@ -20,14 +20,28 @@
                 </ul>
             </div>
 
-            <div class="sm:w-1/3 p-0 text-xs sm:p-1 text-center">
+            <div class="sm:w-1/4 p-0 text-xs sm:p-1 text-center">
                 <h3 class="text-base font-semibold text-white mb-3 pl-0">Company</h3>
                 <ul>
                     <li><a class="primary-link" href="/testimonials">Testimonials</a></li>
                     <li><a class="primary-link" href="/site-map">Sitemap</a></li e </ul>
             </div>
 
-            <div class="sm:w-1/3 p-0 text-xs sm:p-1 text-center">
+            <div class="sm:w-1/4 p-0 text-xs sm:p-1 text-center">
+
+                <h3 class="text-base font-semibold text-white mb-3 pl-0">Accredited</h3>
+                <div class="flex">
+                    <div class="flex-1 md:flex-none">
+                        <img class="h-20 md:h-16 w-auto mx-auto" src="/resources/img/pages/logos/safe-contractor-logo.svg" alt="approved safe contractor">
+                    </div>
+                    <div class="flex-1">
+                        <img class="h-auto w-3/4 md:w-5/6 mx-auto" src="/resources/img/pages/logos/assoc-pro-landscapers-logo.svg" alt="association of professional landscapers">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="sm:w-1/4 p-0 text-xs sm:p-1 text-center">
 
                 <h3 class="text-base font-semibold text-white mb-3 pl-0">Social media</h3>
                 <div class="">
@@ -35,9 +49,12 @@
                 </div>
             </div>
 
+
         </div>
 
-        <?php get_template_part('templates/partials/copyright'); ?>
+    </div>
+
+    <?php get_template_part('templates/partials/copyright'); ?>
     </div>
 
     <!-- MODAL OVERLAY -->
