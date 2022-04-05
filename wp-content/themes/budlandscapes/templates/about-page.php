@@ -108,9 +108,9 @@ get_header(); ?>
             <div class="flex flex-wrap md:flex-nowrap pb-5">
                 <div class="hidden md:block px-5 w-full md:w-2/5">
                     <picture>
-                        <source srcset="/resources/img/pages/about/about-2.webp" type="image/webp">
-                        <source srcset="/resources/img/pages/about/about-2.jpg" type="image/jpeg">
-                        <img class="w-full max-h-80 object-cover object-center rounded-lg shadow-md" src="/resources/img/pages/about/about-2.jpg" alt="garden cabins and offices">
+                        <source srcset="/resources/img/pages/about/steve-corio.webp" type="image/webp">
+                        <source srcset="/resources/img/pages/about/steve-corio.jpg" type="image/jpeg">
+                        <img class="w-full max-h-80 object-cover object-center rounded-lg shadow-md" src="/resources/img/pages/about/steve-corio.jpg" alt="steve cabins and offices">
                     </picture>
                 </div>
                 <div class="w-full md:w-3/5 px-5">
@@ -129,9 +129,9 @@ get_header(); ?>
 
                 <div class="md:hidden px-5 w-full md:w-2/5">
                     <picture>
-                        <source srcset="/resources/img/pages/about/about-2.webp" type="image/webp">
-                        <source srcset="/resources/img/pages/about/about-2.jpg" type="image/jpeg">
-                        <img class="w-full max-h-80 object-cover object-center rounded-lg shadow-md" src="/resources/img/pages/about/about-2.jpg" alt="garden cabins and offices">
+                        <source srcset="/resources/img/pages/about/steve-corio.webp" type="image/webp">
+                        <source srcset="/resources/img/pages/about/steve-corio.jpg" type="image/jpeg">
+                        <img class="w-full max-h-80 object-cover object-center rounded-lg shadow-md" src="/resources/img/pages/about/steve-corio.jpg" alt="steve cabins and offices">
                     </picture>
                 </div>
             </div>
@@ -142,42 +142,55 @@ get_header(); ?>
                         <p>Our gardeners always take great pride in their work, whether fencing, laying drives & patios, or simply providing regular gardening duties such as grass cutting & general garden maintenance. We are all passionate about gardening; no job is too big or small and all get the same high attention to detail. As we all know, it's important to be as eco-friendly as possible, so to do our bit for the environment we always use sustainable soil, bark mulch & recycled compost, and have a strict policy of recycling as much waste as we can.
                         </p>
                         <p>
-                            We believe if you entrust us with your beloved garden you have complete open communication with us and can contact the office or Steve Corio directly via email or telephone with any queries you may have. Bud Design & landscaping pride themselves on punctuality, there is nothing worse than waiting in for a tradesman who doesn't turn up on time. When we say 8am we mean 8am.
-                        </p>
-                        <p>
                             Our skilled gardeners have been providing high quality landscaping services to domestic customers throughout Maidenhead and surrounding areas for many years, now due to on-going success and expansion we can also undertake larger commercial garden maintenance contracts for businesses and corporate companies throughout the area.
                         </p>
             </div>
+
+            <div class="flex flex-wrap md:flex-nowrap pb-5">
+
+                <div class="w-full md:w-3/5 px-5">
+                    <p>
+                        We believe if you entrust us with your beloved garden you have complete open communication with us and can contact the office or Steve Corio directly via email or telephone with any queries you may have. Bud Design & landscaping pride themselves on punctuality, there is nothing worse than waiting in for a tradesman who doesn't turn up on time. When we say 8am we mean 8am.
+                    </p>
+
+                </div>
+                <div class="hidden md:block px-5 w-full md:w-2/5">
+                    <picture>
+                        <source srcset="/resources/img/pages/about/about-2.webp" type="image/webp">
+                        <source srcset="/resources/img/pages/about/about-2.jpg" type="image/jpeg">
+                        <img class="w-full max-h-80 object-cover object-center rounded-lg shadow-md" src="/resources/img/pages/about/about-2.jpg" alt="garden cabins and offices">
+                    </picture>
+                </div>
+            </div>
+
         </div>
+    </section>
 
-</div>
-</section>
+    <!-- THE FORM -->
+    <section id="request-callback" class="w-full bg-gray-700">
+        <div class="flex max-w-5xl mx-auto py-20 space-x-5 ">
 
-<!-- THE FORM -->
-<section id="request-callback" class="w-full bg-gray-700">
-    <div class="flex max-w-5xl mx-auto py-20 space-x-5 ">
-
-        <div class="px-5 text-base">
-            <h4 class="pt-6 font-semibold">Eager to get started?</h4>
-            <h2 class="text-2xl uppercase">Looking for a <span class="bg-orange-500 px-1 text-white transform inline-block -skew-y-2">hassel-free</span> quote</h2>
-            <p class="py-2">The first step is a initial consultation to discuss your garden design project and what you are looking to achieve. Get in touch on our contact page if you want a <a class="relative text-base text-white hover:underline" href="/contact">more detailed quote</a>. Alternatively, fill out this quick quote form and a member of the team with call you back.</p>
-            <p>
-                <!-- <a class="relative inline-flex tertiary-btn pr-6 space-x-2" href="/contact">
+            <div class="px-5 text-base">
+                <h4 class="pt-6 font-semibold">Eager to get started?</h4>
+                <h2 class="text-2xl uppercase">Looking for a <span class="bg-orange-500 px-1 text-white transform inline-block -skew-y-2">hassel-free</span> quote</h2>
+                <p class="py-2">The first step is a initial consultation to discuss your garden design project and what you are looking to achieve. Get in touch on our contact page if you want a <a class="relative text-base text-white hover:underline" href="/contact">more detailed quote</a>. Alternatively, fill out this quick quote form and a member of the team with call you back.</p>
+                <p>
+                    <!-- <a class="relative inline-flex tertiary-btn pr-6 space-x-2" href="/contact">
 Contact us
 <svg xmlns="http://www.w3.org/2000/svg" class="absolute top-3 right-1 inline-block w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
 <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
 </svg>
 </a> -->
-                <!-- <a class="relative primary-link p-2 text-sm hover:underline" href="/about">
+                    <!-- <a class="relative primary-link p-2 text-sm hover:underline" href="/about">
 Testimonials
 </a> -->
-            </p>
+                </p>
 
-            <?php the_content(); ?>
+                <?php the_content(); ?>
 
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
 

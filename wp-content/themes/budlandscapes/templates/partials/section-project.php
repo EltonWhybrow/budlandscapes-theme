@@ -50,6 +50,12 @@
             <div class="w-full md:w-1/3 lg:w-1/2 mx-auto bg-gray-700 p-10">
                 <h3 class="text-3xl uppercase text-gray-500"><?php the_title(); ?></h3>
                 <?php the_content(); ?>
+                <a class="relative inline-flex primary-btn pr-6" href="/contact">
+                    Enquire
+                    <svg xmlns="http://www.w3.org/2000/svg" class="absolute top-3 right-1 inline-block w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                    </svg>
+                </a>
             </div>
 
             <?php if (get_field('img-4')) { ?>
