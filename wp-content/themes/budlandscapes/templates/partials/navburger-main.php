@@ -1,7 +1,7 @@
 <!-- Burger menu -->
 <nav class="navburger-main">
-    <div class="text-right p-2 inline-block">
-        <img src="/resources/img/pages/logos/bud_logo_2022.svg" alt="Bud Landscapes" width="60px" height="auto">
+    <div class="text-right p-4 inline-block">
+        <img src="/resources/img/pages/logos/bud_logo_2022.svg" alt="Bud Landscapes" width="120px" height="auto">
     </div>
 
     <?php
