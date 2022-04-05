@@ -18,6 +18,8 @@ wp-content/plugins/wordpress-seo/
 wp-content/plugins/wpforms-lite/
 wp-content/plugins/all-in-one-wp-migration/
 wp-content/plugins/wpsitesynccontent/
+wp-content/plugins/wpsitesync-acf/
+wp-content/plugins/wpsitesync-cpts/
 
 
 !wp-content/themes/
