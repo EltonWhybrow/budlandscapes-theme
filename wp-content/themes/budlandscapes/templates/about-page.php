@@ -157,7 +157,7 @@ get_header(); ?>
                     <p class="text-sm font-semibold">Steve Corio - Company Director</p>
 
                 </div>
-                <div class="hidden md:block px-5 w-full md:w-2/5">
+                <div class="px-5 w-full md:w-2/5">
                     <picture>
                         <source srcset="/resources/img/pages/about/steve-corio.webp" type="image/webp">
                         <source srcset="/resources/img/pages/about/steve-corio.jpg" type="image/jpeg">
