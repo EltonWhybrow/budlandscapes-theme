@@ -31,7 +31,7 @@ body {
 		border-bottom: none;
 	}
 }
-
+/* purgecss start ignore */
 // header scroll stuff move to separate file
 header {
 	.main-logo {
@@ -47,7 +47,3 @@ header {
 		// }
 	}
 }
-
-// .single-projects {
-// 	@apply bg-gray-700;
-// }
