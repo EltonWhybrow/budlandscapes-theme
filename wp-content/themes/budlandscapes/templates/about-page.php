@@ -107,10 +107,11 @@ get_header(); ?>
 
             <div class="flex flex-wrap md:flex-nowrap pb-5">
                 <div class="hidden md:block px-5 w-full md:w-2/5">
+
                     <picture>
-                        <source srcset="/resources/img/pages/about/steve-corio.webp" type="image/webp">
-                        <source srcset="/resources/img/pages/about/steve-corio.jpg" type="image/jpeg">
-                        <img class="w-full max-h-80 object-cover object-center rounded-lg shadow-md" src="/resources/img/pages/about/steve-corio.jpg" alt="steve cabins and offices">
+                        <source srcset="/resources/img/pages/about/about-2.webp" type="image/webp">
+                        <source srcset="/resources/img/pages/about/about-2.jpg" type="image/jpeg">
+                        <img class="w-full max-h-80 object-cover object-center rounded-lg shadow-md" src="/resources/img/pages/about/about-2.jpg" alt="garden cabins and offices">
                     </picture>
                 </div>
                 <div class="w-full md:w-3/5 px-5">
@@ -118,7 +119,7 @@ get_header(); ?>
 
                     <h3 class="text-gray-600 text-2xl uppercase tracking-wide">Our staff<h3>
                             <p>
-                                Our work is carried out only to the highest of standards and each job is personally overseen by company director and owner Steve Corio who is an expert in his field. Gardens landscaped to perfection and maintained in pristine condition. We believe that quality is what differentiates us from the competition.
+                                Our work is carried out only to the highest of standards and gardens landscaped to perfection and maintained in pristine condition. We believe that quality is what differentiates us from the competition.
                             </p>
                             <p>
                                 We pride ourselves in supporting our personnel by providing the very best training and the highest quality tools.
@@ -129,9 +130,9 @@ get_header(); ?>
 
                 <div class="md:hidden px-5 w-full md:w-2/5">
                     <picture>
-                        <source srcset="/resources/img/pages/about/steve-corio.webp" type="image/webp">
-                        <source srcset="/resources/img/pages/about/steve-corio.jpg" type="image/jpeg">
-                        <img class="w-full max-h-80 object-cover object-center rounded-lg shadow-md" src="/resources/img/pages/about/steve-corio.jpg" alt="steve cabins and offices">
+                        <source srcset="/resources/img/pages/about/about-2.webp" type="image/webp">
+                        <source srcset="/resources/img/pages/about/about-2.jpg" type="image/jpeg">
+                        <img class="w-full max-h-80 object-cover object-center rounded-lg shadow-md" src="/resources/img/pages/about/about-2.jpg" alt="garden cabins and offices">
                     </picture>
                 </div>
             </div>
@@ -148,17 +149,19 @@ get_header(); ?>
 
             <div class="flex flex-wrap md:flex-nowrap pb-5">
 
-                <div class="w-full md:w-3/5 px-5">
+                <div class="w-full md:w-3/5 px-5 text-gray-600">
                     <p>
-                        We believe if you entrust us with your beloved garden you have complete open communication with us and can contact the office or Steve Corio directly via email or telephone with any queries you may have. Bud Design & landscaping pride themselves on punctuality, there is nothing worse than waiting in for a tradesman who doesn't turn up on time. When we say 8am we mean 8am.
+                        Each job is personally overseen by company director and owner Steve Corio who is an expert in his field. He believes if you entrust us with your beloved garden then you have complete open communication with us and can contact the office or Steve Corio directly via email or telephone with any queries you may have at anytime. Bud Design & Landscaping pride themselves on punctuality, there is nothing worse than waiting in for a tradesman who doesn't turn up on time. When we say 8am we mean 8am.
                     </p>
+                    <h4 class="mt-2">All the best</h4>
+                    <p class="text-sm font-semibold">Steve Corio - Company Director</p>
 
                 </div>
                 <div class="hidden md:block px-5 w-full md:w-2/5">
                     <picture>
-                        <source srcset="/resources/img/pages/about/about-2.webp" type="image/webp">
-                        <source srcset="/resources/img/pages/about/about-2.jpg" type="image/jpeg">
-                        <img class="w-full max-h-80 object-cover object-center rounded-lg shadow-md" src="/resources/img/pages/about/about-2.jpg" alt="garden cabins and offices">
+                        <source srcset="/resources/img/pages/about/steve-corio.webp" type="image/webp">
+                        <source srcset="/resources/img/pages/about/steve-corio.jpg" type="image/jpeg">
+                        <img class="w-full max-h-80 object-cover object-center rounded-lg shadow-md" src="/resources/img/pages/about/steve-corio.jpg" alt="steve cabins and offices">
                     </picture>
                 </div>
             </div>
