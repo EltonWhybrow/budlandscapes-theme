@@ -151,7 +151,7 @@ get_header(); ?>
 
                 <div class="w-full md:w-3/5 px-5 text-gray-600">
                     <p>
-                        Each job is personally overseen by company director and owner Steve Corio who is an expert in his field. He believes if you entrust us with your beloved garden then you have complete open communication with us and can contact the office or Steve Corio directly via email or telephone with any queries you may have at anytime. Bud Design & Landscaping pride themselves on punctuality, there is nothing worse than waiting in for a tradesman who doesn't turn up on time. When we say 8am we mean 8am.
+                        Each job is personally overseen by company director and owner Steve Corio who is an expert in his field and has a background in Engineering. He started Bud Design & Landscaping Ltd after a chosen career change over 14 years ago. Building an impressive portfolio of work from residential and commercial sectors, he has developed the company into a countrywide landscaping business, enabling him and his team to create dream gardens for everyone. He believes if you entrust us with your beloved garden then you have complete open communication with us and can contact the office or Steve Corio directly via email or telephone with any queries you may have at anytime. Bud Design & Landscaping pride themselves on punctuality, there is nothing worse than waiting in for a tradesman who doesn't turn up on time. When we say 8am we mean 8am.
                     </p>
                     <h4 class="mt-2">All the best</h4>
                     <p class="text-sm font-semibold">Steve Corio - Company Director</p>
