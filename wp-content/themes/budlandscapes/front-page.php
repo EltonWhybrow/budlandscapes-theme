@@ -40,7 +40,7 @@
 			<h1 class="hidden">Budlandscapes - Design & Landscaping</h1>
 			<h3 class="text-gray-600 text-2xl uppercase tracking-wide">Our clients are the ones that count</h3>
 			<h4 class="pt-6 font-semibold">We do it all - we do it the best!</h4>
-			<p class="mb-16 text-xs max-w-lg mx-auto text-gray-700">Find out more about the capabilities Steve and the team offer here at Bud design &amp;landscaping. See the <a href="/services" class="secondary-link text-xs underline hover:no-underline">services we offer</a> and how we can make your dream garden a reality</p>
+			<p class="mb-16 text-xs max-w-lg mx-auto text-gray-700">Find out more about the capabilities that Steve and the team offer here at Bud Design &amp; Landscaping. See the <a href="/services" class="secondary-link text-xs underline hover:no-underline">services we offer</a> and how we can make your dream garden a reality</p>
 		</div>
 
 		<div class="mx-2 flex flex-wrap space-y-20 md:space-y-0 md:space-x-12">
