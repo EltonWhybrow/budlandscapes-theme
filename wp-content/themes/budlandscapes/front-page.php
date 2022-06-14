@@ -14,9 +14,9 @@
 			<div class="px-5 text-base">
 				<h4 class="pt-6 font-semibold">Eager to get started?</h4>
 				<h2 class="text-2xl uppercase">Looking for a <span class="bg-orange-500 px-1 text-white transform inline-block -skew-y-2">hassel-free</span> quote</h2>
-				<p class="py-2">The first step is a initial consultation to discuss your garden design project and what you are looking to achieve. Get in touch on our contact page if you want a <a class="relative text-base text-white hover:underline" href="/contact">more detailed quote</a>. Alternatively, fill out this quick quote form and a member of the team with call you back.</p>
+				<p class="py-2">The first step is a initial consultation to discuss your garden design project and what you are looking to achieve. Get in touch on our contact page if you want a <a class="relative text-base text-white hover:underline" href="/contact#contact-form">more detailed quote</a>. Alternatively, fill out this quick quote form and a member of the team with call you back.</p>
 				<p>
-					<!-- <a class="relative inline-flex tertiary-btn pr-6 space-x-2" href="/contact">
+					<!-- <a class="relative inline-flex tertiary-btn pr-6 space-x-2" href="/contact#contact-form">
 						Contact us
 						<svg xmlns="http://www.w3.org/2000/svg" class="absolute top-3 right-1 inline-block w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
 							<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
@@ -67,10 +67,10 @@
 							</div>
 						</div>
 
-						<h4 class="mt-3 text-teal-600 font-semibold">Bring the home into garden</h4>
+						<h4 class="mt-3 text-teal-600 font-semibold">Bring the home into the garden</h4>
 
 						<div class="mt-1 text-gray-600 text-sm">
-							We build external offices and cabins from hard wearing materials to use all year round. With Steve and the Bud Design &amp; Landscaping team we can help you utilize your garden space.
+							We build external offices and cabins from hard wearing materials to use all year round. With Steve and the Bud Design &amp; Landscaping team we can help you fully utilize your garden space.
 						</div>
 
 						<p class="inline-flex space-x-2 py-4 absolute bottom-2">
@@ -113,7 +113,7 @@
 						<h4 class="mt-3 text-teal-600 font-semibold">No garden too big or small</h4>
 
 						<div class="mt-1 text-gray-600 text-sm">
-							We have a large portfolio and pride ourselves on making garden spaces amazing regardless of the space available. Feel free to view some <a class="primary-link text-sm" href="/projects"> past projects</a> and some before and after shots we have captured to see the magic happen.
+							We have a large portfolio and pride ourselves on making garden spaces amazing, regardless of the available space. Feel free to view some <a class="primary-link text-sm" href="/projects"> past projects</a> and before and after shots we have captured to see how the magic happens.
 						</div>
 
 						<p class="inline-flex space-x-2 py-4 absolute bottom-2">
@@ -123,7 +123,7 @@
 									<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
 								</svg>
 							</a>
-							<a class="relative primary-link p-2 text-sm hover:text-teal-700 hover:underline" href="/contact">
+							<a class="relative primary-link p-2 text-sm hover:text-teal-700 hover:underline" href="/contact#contact-form">
 								Enquiry
 							</a>
 						</p>
@@ -170,7 +170,7 @@
 									<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
 								</svg>
 							</a>
-							<a class="relative primary-link p-2 text-sm hover:text-teal-700 hover:underline" href="/contact">
+							<a class="relative primary-link p-2 text-sm hover:text-teal-700 hover:underline" href="/contact#contact-form">
 								Enquiry
 							</a>
 						</p>
@@ -214,7 +214,7 @@
 									<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
 								</svg>
 							</a>
-							<a class="relative primary-link p-2 text-sm hover:text-teal-700 hover:underline" href="/contact">
+							<a class="relative primary-link p-2 text-sm hover:text-teal-700 hover:underline" href="/contact#contact-form">
 								Enquiry
 							</a>
 						</p>
@@ -240,8 +240,7 @@
 			<div class="py-0 w-full md:w-3/5">
 				<div class="px-5">
 					<h2 class="text-2xl uppercase">The Budlandscapes <span class="bg-orange-500 px-1 text-white transform inline-block -skew-y-2">team</span></h2>
-					<p class="text-xl pb-2">Steve and his team have been creating beautiful outdoors spaces for over [XX] years and their client base keeps on growing. </p>
-
+					<p class="text-xl pb-2">Steve and his team have been creating beautiful outdoors spaces for over 20 years and their client base keeps on growing. </p>
 					<p>
 						<a class="relative inline-flex tertiary-btn pr-6 space-x-2" href="/about">
 							About us

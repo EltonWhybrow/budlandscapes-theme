@@ -35,7 +35,7 @@ get_header(); ?>
             </div>
 
             <p class="inline-flex space-x-2 pb-4">
-                <a class="relative inline-flex primary-btn pr-6" href="/contact">
+                <a class="relative inline-flex primary-btn pr-6" href="/contact#contact-form">
                     Get in touch
                     <svg xmlns="http://www.w3.org/2000/svg" class="absolute top-3 right-1 inline-block w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
@@ -65,7 +65,7 @@ get_header(); ?>
         <div class="px-5 text-base">
             <h4 class="pt-6 font-semibold">Eager to get started?</h4>
             <h2 class="text-2xl uppercase">Looking for a <span class="bg-orange-500 px-1 text-white transform inline-block -skew-y-2">hassel-free</span> quote</h2>
-            <p class="py-2">The first step is a initial consultation to discuss your garden design project and what you are looking to achieve. Get in touch on our contact page if you want a <a class="relative text-base text-white hover:underline" href="/contact">more detailed quote</a>. Alternatively, fill out this quick quote form and a member of the team with call you back.</p>
+            <p class="py-2">The first step is a initial consultation to discuss your garden design project and what you are looking to achieve. Get in touch on our contact page if you want a <a class="relative text-base text-white hover:underline" href="/contact#contact-form">more detailed quote</a>. Alternatively, fill out this quick quote form and a member of the team with call you back.</p>
 
             <?php echo do_shortcode('[wpforms id="153" title="false"]'); ?>
 
