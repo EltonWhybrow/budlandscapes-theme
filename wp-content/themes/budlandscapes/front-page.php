@@ -13,8 +13,8 @@
 
 			<div class="px-5 text-base">
 				<h4 class="pt-6 font-semibold">Eager to get started?</h4>
-				<h2 class="text-2xl uppercase">Looking for a <span class="bg-orange-500 px-1 text-white transform inline-block -skew-y-2">hassel-free</span> quote</h2>
-				<p class="py-2">The first step is a initial consultation to discuss your garden design project and what you are looking to achieve. Get in touch on our contact page if you want a <a class="relative text-base text-white hover:underline" href="/contact#contact-form">more detailed quote</a>. Alternatively, fill out this quick quote form and a member of the team with call you back.</p>
+				<h2 class="text-2xl uppercase">Looking for a <span class="bg-orange-500 px-1 text-white transform inline-block -skew-y-2">hassel-free</span> quote?</h2>
+				<p class="py-2">The first step is an initial consultation to discuss your garden design project and what you are looking to achieve. Get in touch on our contact page if you would like to arrrange consultation with a member of our team<a class="relative text-base text-white hover:underline" href="/contact#contact-form"></a>. Alternatively, fill out this quick quote form and a member of the team with call you back.</p>
 				<p>
 					<!-- <a class="relative inline-flex tertiary-btn pr-6 space-x-2" href="/contact#contact-form">
 						Contact us
@@ -40,7 +40,7 @@
 			<h1 class="hidden">Budlandscapes - Design & Landscaping</h1>
 			<h3 class="text-gray-600 text-2xl uppercase tracking-wide">Our clients are the ones that count</h3>
 			<h4 class="pt-6 font-semibold">We do it all - we do it the best!</h4>
-			<p class="mb-16 text-xs max-w-lg mx-auto text-gray-700">Find out more about the capabilities that Steve and the team offer here at Bud Design &amp; Landscaping. See the <a href="/services" class="secondary-link text-xs underline hover:no-underline">services we offer</a> and how we can make your dream garden a reality</p>
+			<p class="mb-16 text-xs max-w-lg mx-auto text-gray-700">Find out more about the <a href="/services" class="secondary-link text-xs underline hover:no-underline">services</a> that Steve and the team offer here at Bud Design &amp; Landscaping. See how we can make your dream garden a reality.</p>
 		</div>
 
 		<div class="mx-2 flex flex-wrap space-y-20 md:space-y-0 md:space-x-12">
@@ -70,7 +70,7 @@
 						<h4 class="mt-3 text-teal-600 font-semibold">Bring the home into the garden</h4>
 
 						<div class="mt-1 text-gray-600 text-sm">
-							We build external offices and cabins from hard wearing materials to use all year round. With Steve and the Bud Design &amp; Landscaping team we can help you fully utilize your garden space.
+							We build external offices and cabins from hard wearing materials to use all year round. Steve and the Bud Design &amp; Landscaping team can help you fully utilize your garden space.
 						</div>
 
 						<p class="inline-flex space-x-2 py-4 absolute bottom-2">
@@ -113,7 +113,7 @@
 						<h4 class="mt-3 text-teal-600 font-semibold">No garden too big or small</h4>
 
 						<div class="mt-1 text-gray-600 text-sm">
-							We have a large portfolio and pride ourselves on making garden spaces amazing, regardless of the available space. Feel free to view some <a class="primary-link text-sm" href="/projects"> past projects</a> and before and after shots we have captured to see how the magic happens.
+							We have a large portfolio and pride ourselves on making garden spaces amazing, regardless of the available space. Feel free to view some <a class="primary-link text-sm" href="/projects"> past projects</a>, and before and after shots that capture some stunning transformations.
 						</div>
 
 						<p class="inline-flex space-x-2 py-4 absolute bottom-2">
@@ -160,7 +160,7 @@
 						<h4 class="mt-3 text-teal-600 font-semibold">Working alongside the best</h4>
 
 						<div class="mt-1 text-gray-600 text-sm">
-							We are the approved landscape contractors for multiple nursing homes throughout the UK, we proudly provide our services to household names like Bupa homes.
+							We are the approved landscape contractors for multiple nursing homes throughout the UK. We proudly provide our services to household names like Bupa homes &amp; Lancer Scott.
 						</div>
 
 						<p class="inline-flex space-x-2 py-4 absolute bottom-2">
@@ -204,7 +204,7 @@
 						<h4 class="mt-3 text-teal-600 font-semibold">Garden maintenance throughout the UK</h4>
 
 						<div class="mt-1 text-gray-600 text-sm">
-							One off, occasional or regular visits, benefit from our expert gardening knowledge and experience. We also develop low maintenance gardens for those with busy lifestyles.
+							One off, occasional or regular visits, all benefit from our expert gardening knowledge and experience. We also develop low maintenance gardens for those with busy lifestyles.
 						</div>
 
 						<p class="inline-flex space-x-2 py-4 absolute bottom-2">
@@ -240,7 +240,7 @@
 			<div class="py-0 w-full md:w-3/5">
 				<div class="px-5">
 					<h2 class="text-2xl uppercase">The Budlandscapes <span class="bg-orange-500 px-1 text-white transform inline-block -skew-y-2">team</span></h2>
-					<p class="text-xl pb-2">Steve and his team have been creating beautiful outdoors spaces for over 20 years and their client base keeps on growing. </p>
+					<p class="text-xl pb-2">Steve and his team have been creating beautiful outdoor spaces for over 20 years and their client base keeps on growing. </p>
 					<p>
 						<a class="relative inline-flex tertiary-btn pr-6 space-x-2" href="/about">
 							About us

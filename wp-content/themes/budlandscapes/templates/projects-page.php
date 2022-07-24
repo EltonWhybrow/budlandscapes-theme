@@ -64,10 +64,11 @@ get_header(); ?>
 
         <div class="px-5 text-base">
             <h4 class="pt-6 font-semibold">Eager to get started?</h4>
-            <h2 class="text-2xl uppercase">Looking for a <span class="bg-orange-500 px-1 text-white transform inline-block -skew-y-2">hassel-free</span> quote</h2>
-            <p class="py-2">The first step is a initial consultation to discuss your garden design project and what you are looking to achieve. Get in touch on our contact page if you want a <a class="relative text-base text-white hover:underline" href="/contact#contact-form">more detailed quote</a>. Alternatively, fill out this quick quote form and a member of the team with call you back.</p>
+            <h2 class="text-2xl uppercase">Looking for a <span class="bg-orange-500 px-1 text-white transform inline-block -skew-y-2">hassel-free</span> quote?</h2>
+            <p class="py-2">The first step is an initial consultation to discuss your garden design project and what you are looking to achieve. Get in touch on our contact page if you would like to arrrange consultation with a member of our team<a class="relative text-base text-white hover:underline" href="/contact#contact-form"></a>. Alternatively, fill out this quick quote form and a member of the team with call you back.</p>
+            <p>
 
-            <?php echo do_shortcode('[wpforms id="153" title="false"]'); ?>
+                <?php echo do_shortcode('[wpforms id="153" title="false"]'); ?>
 
         </div>
     </div>

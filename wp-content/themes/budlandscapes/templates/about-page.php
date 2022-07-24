@@ -48,7 +48,7 @@ get_header(); ?>
                     <!-- // humble beginnings -->
 
                     <h3 class="text-gray-600 text-2xl uppercase tracking-wide">Our history<h3>
-                            <p>Started and based in Maidenhead we now provide our professional services as landscapes contractors/designer all over the UK. Through hard work, honesty, teamwork, innovation and a focus on quality, we have steadily grown into a robust team of landscape gardeners, designers and maintenance teams specialising in delivering the best level of service.
+                            <p>Established in Maidenhead over 2 decades ago, we now provide our professional services as landscape contractors/designers all over the UK. Through hard work, honesty, teamwork, innovation and a focus on quality, we have steadily grown into a robust team of landscape gardeners, designers and maintenance teams, specialising in delivering the highest level of service.
                             </p>
 
                             <!-- // Slogan -->
@@ -75,10 +75,10 @@ get_header(); ?>
 
             </div>
 
-            <!-- // through time -->
+            <!-- // over time -->
             <div class="pb-10 px-5">
-                <h3 class="text-gray-600 text-2xl uppercase tracking-wide">Through time<h3>
-                        <p>In addition to lawn care, grass cutting, pruning & general garden maintenance work, our dedicated Maidenhead landscaping team are able to provide virtually any form of hard or soft landscaping service you may require. Fencing, decking, hedge shaping, water features, brick laying, ponds, patios, garden clearance, tree work and much more.
+                <h3 class="text-gray-600 text-2xl uppercase tracking-wide">Over time<h3>
+                        <p>In addition to lawn care, grass cutting, pruning & general garden maintenance work, our dedicated Maidenhead landscaping team are now able to provide virtually any form of hard or soft landscaping service you may require. Fencing, decking, hedge shaping, water features, brick laying, ponds, patios, garden clearance, tree work and much more.
                         </p>
             </div>
 
@@ -102,7 +102,7 @@ get_header(); ?>
                                 Ruggle &amp; Jeffery
                             </a>.
                         </p>
-                        <p>Bud Design & Landscaping Limited has designed and built the grounds and gardens on numerous retirement developments throughout the UK. Instructed by both private and commercial clients, the practice has become recognised for its work for the recently retired through to the elderly and those with special needs.</p>
+                        <p>Bud Design & Landscaping Limited has designed and built the grounds and gardens of numerous retirement developments throughout the UK. Instructed by both private and commercial clients, our work has been recognised by those that are recently retired, elderly and those with special needs.</p>
             </div>
 
             <div class="flex flex-wrap md:flex-nowrap pb-5">
@@ -119,11 +119,11 @@ get_header(); ?>
 
                     <h3 class="text-gray-600 text-2xl uppercase tracking-wide">Our staff<h3>
                             <p>
-                                Our work is carried out only to the highest of standards and gardens landscaped to perfection and maintained in pristine condition. We believe that quality is what differentiates us from the competition.
+                                Our work is carried out only to the highest of standards and gardens are landscaped to perfection and maintained in pristine condition. We believe that quality is what sets us apart, from others in this field.
                             </p>
                             <p>
                                 We pride ourselves in supporting our personnel by providing the very best training and the highest quality tools.
-                                All staff are CRB Checked, have attended health and safety awareness courses and have their CSCS cards. We supply risk assessments and method statements on work where needed.
+                                All staff are DBS checked, have attended health and safety awareness courses and have their CSCS cards. We supply risk assessments and method statements on work where needed.
                             </p>
 
                 </div>
@@ -140,10 +140,10 @@ get_header(); ?>
             <!-- // work -->
             <div class="pb-5 px-5">
                 <h3 class="text-gray-600 text-2xl uppercase tracking-wide">Work Ethics<h3>
-                        <p>Our gardeners always take great pride in their work, whether fencing, laying drives & patios, or simply providing regular gardening duties such as grass cutting & general garden maintenance. We are all passionate about gardening; no job is too big or small and all get the same high attention to detail. As we all know, it's important to be as eco-friendly as possible, so to do our bit for the environment we always use sustainable soil, bark mulch & recycled compost, and have a strict policy of recycling as much waste as we can.
+                        <p>Our gardeners always take great pride in their work, whether fencing, laying drives & patios, or simply providing regular gardening duties such as grass cutting & general garden maintenance. We are all passionate about gardening; no job is too big or small, and all get the same high attention to detail. As we all know, it's important to be as eco-friendly as possible, so to do our bit for the environment we always use sustainable soil, bark mulch & recycled compost, and have a strict policy of recycling as much waste as we can.
                         </p>
                         <p>
-                            Our skilled gardeners have been providing high quality landscaping services to domestic customers throughout Maidenhead and surrounding areas for many years, now due to on-going success and expansion we can also undertake larger commercial garden maintenance contracts for businesses and corporate companies throughout the area.
+                            Our skilled gardeners have been providing high quality landscaping services to domestic customers throughout Maidenhead and surrounding areas for many years. Due to on-going success and expansion, we can also undertake larger commercial garden maintenance contracts for businesses and corporate companies across the country.
                         </p>
             </div>
 
@@ -151,7 +151,7 @@ get_header(); ?>
 
                 <div class="w-full md:w-3/5 px-5 text-gray-600">
                     <p>
-                        Each job is personally overseen by company director and owner Steve Corio who is an expert in his field and has a background in Engineering. He started Bud Design & Landscaping Ltd after a chosen career change over 14 years ago. Building an impressive portfolio of work from residential and commercial sectors, he has developed the company into a countrywide landscaping business, enabling him and his team to create dream gardens for everyone. He believes if you entrust us with your beloved garden then you have complete open communication with us and can contact the office or Steve Corio directly via email or telephone with any queries you may have at anytime. Bud Design & Landscaping pride themselves on punctuality, there is nothing worse than waiting in for a tradesman who doesn't turn up on time. When we say 8am we mean 8am.
+                        Each job is personally overseen by company director and owner Steve Corio, who is an expert in his field and has a background in Engineering. He started Bud Design & Landscaping Ltd after a chosen career change over 20 years ago. Building an impressive portfolio of work from residential and commercial sectors, he has developed the company into a countrywide landscaping business, enabling him and his team to create dream gardens for everyone. He believes if you entrust Budlandscapes with your beloved garden, then you have complete open communication with us and can contact the office or Steve Corio directly via email or telephone with any queries you may have at anytime. Bud Design & Landscaping pride themselves on punctuality; there is nothing worse than waiting in for a tradesman who doesn't turn up on time. When we say 8am, we mean 8am.
                     </p>
                     <h4 class="mt-2">All the best</h4>
                     <p class="text-sm font-semibold">Steve Corio - Company Director</p>
@@ -175,18 +175,18 @@ get_header(); ?>
 
             <div class="px-5 text-base">
                 <h4 class="pt-6 font-semibold">Eager to get started?</h4>
-                <h2 class="text-2xl uppercase">Looking for a <span class="bg-orange-500 px-1 text-white transform inline-block -skew-y-2">hassel-free</span> quote</h2>
-                <p class="py-2">The first step is a initial consultation to discuss your garden design project and what you are looking to achieve. Get in touch on our contact page if you want a <a class="relative text-base text-white hover:underline" href="/contact">more detailed quote</a>. Alternatively, fill out this quick quote form and a member of the team with call you back.</p>
+                <h2 class="text-2xl uppercase">Looking for a <span class="bg-orange-500 px-1 text-white transform inline-block -skew-y-2">hassel-free</span> quote?</h2>
+                <p class="py-2">The first step is an initial consultation to discuss your garden design project and what you are looking to achieve. Get in touch on our contact page if you would like to arrrange consultation with a member of our team<a class="relative text-base text-white hover:underline" href="/contact#contact-form"></a>. Alternatively, fill out this quick quote form and a member of the team with call you back.</p>
                 <p>
-                    <!-- <a class="relative inline-flex tertiary-btn pr-6 space-x-2" href="/contact">
-Contact us
-<svg xmlns="http://www.w3.org/2000/svg" class="absolute top-3 right-1 inline-block w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
-</svg>
-</a> -->
+                    <!-- <a class="relative inline-flex tertiary-btn pr-6 space-x-2" href="/contact#contact-form">
+						Contact us
+						<svg xmlns="http://www.w3.org/2000/svg" class="absolute top-3 right-1 inline-block w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+							<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+						</svg>
+					</a> -->
                     <!-- <a class="relative primary-link p-2 text-sm hover:underline" href="/about">
-Testimonials
-</a> -->
+							Testimonials
+						</a> -->
                 </p>
 
                 <?php the_content(); ?>

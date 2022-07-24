@@ -32,7 +32,7 @@ get_header(); ?>
             <div class="px-5 text-base">
                 <h4 class="pt-6 font-semibold">What we do</h4>
                 <h2 class="text-2xl uppercase">Make amazing <span class="bg-orange-500 px-1 text-white transform inline-block -skew-y-2">outdoor spaces</span> and put smiles on faces</h2>
-                <p class="py-2">Here at Bud Design &amp; Landscaping we pride ourselves on pushing the boudaries with what is possible when it comes to outdoor spaces. We cover all aspects of garden creation from custom made offices &amp; cabins to the beautifull planting and landscaped retreats. Learn more about what we offer below or contact us to <a class="relative text-base text-white hover:underline" href="/contact#contact-form">arrange a visit</a> today.</p>
+                <p class="py-2">Here at Bud Design &amp; Landscaping we pride ourselves on pushing the boundaries with what is possible when it comes to outdoor spaces. We cover all aspects of garden creation from custom made offices &amp; cabins to the beautiful planting and landscaped retreats. Learn more about what we offer below or contact us to <a class="relative text-base text-white hover:underline" href="/contact#contact-form">arrange a visit</a> today.</p>
             </div>
         </div>
     </section>
@@ -149,8 +149,8 @@ get_header(); ?>
                     </span>
                 </div>
 
-                <h4 class="pt-2 font-semibold">Experts in garden installs and buildings</h4>
-                <p class="text-base text-gray-700">Our aim is to help you transform your outdoor space with a high-quality garden building of your choosing. Whether you are looking for a summer house for the children, a log cabin to turn into a home office or a shed to store your garden tools we can create custom spaces to anyones spec. Our extensive experience working with wood and stone materials means we can also create that stunning surrounding area for your strutures.</p>
+                <h4 class="pt-2 font-semibold">Experts in garden installations and buildings</h4>
+                <p class="text-base text-gray-700">Our aim is to help you transform your outdoor space with a high-quality garden building of your choosing. Whether you are looking for a summer house for the children, a log cabin to turn into a home office, or a shed to store your garden tools, we can create custom spaces to anyone's specification. Our extensive experience working with wood and stone materials means we can also create that stunning surrounding area for your structures.</p>
                 <div class="py-2">
                     <a class="relative inline-flex primary-btn pr-6" href="/contact#contact-form">
                         Enquire
@@ -198,8 +198,8 @@ get_header(); ?>
                     </span>
                 </div>
 
-                <h4 class="pt-2 font-semibold">Making the most of you outside space</h4>
-                <p class="text-base text-gray-700">Whatever the size of your garden we can help you to create that cosy hideaway for those summer evenings or totally transfrom it to that country style garden you have always wished for. We have the skills to help you with whatever your heart desires. Whether its decking, fencing, general maintenance or planting, we've got you covered. Garden features are also a speciality of ours, we creatively install water features, pergolas, full working outside kitchen/BBQ areas and more. </p>
+                <h4 class="pt-2 font-semibold">Making the most of your outside space</h4>
+                <p class="text-base text-gray-700">Whatever the size of your garden, we can help you to create that relaxed hideaway for those summer evenings or totally transform it to that country style garden you have always wished for. We have the skills to help you with whatever your heart desires. Whether its decking, fencing, general maintenance or planting, we've got you covered. Garden features are also a speciality of ours. We can creatively install water features, pergolas, full working outside kitchen/BBQ areas and more. </p>
                 <div class="py-2">
                     <a class="relative inline-flex primary-btn pr-6" href="/contact#contact-form">
                         Enquire
@@ -241,7 +241,7 @@ get_header(); ?>
                 </div>
 
                 <h4 class="pt-2 font-semibold">Only the highest quality materials are used by us</h4>
-                <p class="text-base text-gray-700">Highly experienced in laying patios and paving, whether it’s a path, driveway or a patio we work with a variety of materials including block paving, concrete/reconstituted stone paving slabs or natural stone products. We can advise you of the best products to use in your garden depending on the site conditions and the use required. Building decks for a range of situations from simple ground level decks to multi-level decks that deal with sloping sites is our fortay. We also work with stainless steel wires, glass panels to create modern balustrades</p>
+                <p class="text-base text-gray-700">Highly experienced in laying patios and paving, whether it's a path, driveway or a patio - we work with a variety of materials including block paving, concrete/reconstituted stone paving slabs, or natural stone products. We can advise you of the best products to use in your garden depending on the site conditions and the use required. Building decks for a range of situations, from simple ground level decks to multi-level decks, is our forte. We also work with stainless steel wires and glass panels to create modern balustrades</p>
                 <div class="py-2">
                     <a class="relative inline-flex primary-btn pr-6" href="/contact#contact-form">
                         Enquire
@@ -290,7 +290,7 @@ get_header(); ?>
                 </div>
 
                 <h4 class="pt-2 font-semibold">Let us keep your garden in tip-top shape</h4>
-                <p class="text-base text-gray-700">Our team are highly experienced in ground keeping large garden areas. Maintaining yourr garden space can be half the challenge. We can provide one off, occasional or regular visits and can set up a contract if you wish. Both domestic and commercial customers can benefit from our expert gardening knowledge and experience. We also develop low maintenance gardens for those with busy lifestyles or mobility challenges.</p>
+                <p class="text-base text-gray-700">Our team are highly experienced in looking after large and small garden areas. Maintaining your garden space can be time consuming and challenging. We can provide one off, occasional or regular visits and can set up a contract if you wish. Both domestic and commercial customers can benefit from our expert gardening knowledge and experience. We also develop low maintenance gardens for those with busy lifestyles or those that lack the mobility needed, to tackle the job themselves.</p>
                 <div class="py-2">
                     <a class="relative inline-flex primary-btn pr-6" href="/contact#contact-form">
                         Enquire
@@ -408,8 +408,8 @@ get_header(); ?>
 
             <div class="px-5 text-base">
                 <h4 class="pt-6 font-semibold">Eager to get started?</h4>
-                <h2 class="text-2xl uppercase">Looking for a <span class="bg-orange-500 px-1 text-white transform inline-block -skew-y-2">hassel-free</span> quote</h2>
-                <p class="py-2">The first step is a initial consultation to discuss your garden design project and what you are looking to achieve. Get in touch on our contact page if you want a <a class="relative text-base text-white hover:underline" href="/contact#contact-form">more detailed quote</a>. Alternatively, fill out this quick quote form and a member of the team with call you back.</p>
+                <h2 class="text-2xl uppercase">Looking for a <span class="bg-orange-500 px-1 text-white transform inline-block -skew-y-2">hassel-free</span> quote?</h2>
+                <p class="py-2">The first step is an initial consultation to discuss your garden design project and what you are looking to achieve. Get in touch on our contact page if you would like to arrrange consultation with a member of our team<a class="relative text-base text-white hover:underline" href="/contact#contact-form"></a>. Alternatively, fill out this quick quote form and a member of the team with call you back.</p>
                 <p>
                     <!-- <a class="relative inline-flex tertiary-btn pr-6 space-x-2" href="/contact#contact-form">
 Contact us
