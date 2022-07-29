@@ -1,7 +1,7 @@
 <div class="py-28 bg-white">
     <div class="max-w-7xl mx-auto">
 
-        <div class="flex flex-col sm:flex-row flex-wrap items-center sm:items-start justify-between p-2 text-white space-y-6 md:space-y-0">
+        <div class="flex  flex-wrap items-center sm:items-start justify-between p-2 text-white space-y-6 md:space-y-0">
 
             <div class="w-full sm:2/6 md:w-3/6 p-0 sm:p-1 text-center">
                 <picture>
