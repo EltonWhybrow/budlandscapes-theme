@@ -101,6 +101,13 @@ get_header(); ?>
                             <a href="https://www.rugglesandjeffery.co.uk/" class="primary-link" target="_blank">
                                 Ruggle &amp; Jeffery
                             </a>.
+                            <a href="https://www.rugglesandjeffery.co.uk/" class="primary-link" target="_blank">
+                                Ruggle &amp; Jeffery
+                            </a>.
+                        <p>We are also approved installers for <a href="https://millboard.co.uk/" class="primary-link" target="_blank">
+                                Millboard
+                            </a> luxury decking and cladding.</p>
+
                         </p>
                         <p>Bud Design & Landscaping Limited has designed and built the grounds and gardens of numerous retirement developments throughout the UK. Instructed by both private and commercial clients, our work has been recognised by those that are recently retired, elderly and those with special needs.</p>
             </div>
