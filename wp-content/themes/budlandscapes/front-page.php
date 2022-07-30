@@ -36,7 +36,7 @@
 	<!-- CARDS -->
 	<section id="moreinfo" class="max-w-5xl mx-auto py-16 sm:py-24">
 
-		<div class="text-center px-4">
+		<div class="text-center">
 			<h1 class="hidden">Budlandscapes - Design & Landscaping</h1>
 			<h3 class="text-gray-600 text-2xl uppercase tracking-wide">Our clients are the ones that count</h3>
 			<h4 class="pt-6 font-semibold">We do it all - we do it the best!</h4>
@@ -54,7 +54,7 @@
 
 
 				<div class="relative px-4 -mt-16">
-					<div class="h-64 md:h-72 lg:h-64 bg-white p-6 rounded-lg shadow-lg">
+					<div class="h-auto pb-20 lg:h-64 bg-white p-6 rounded-lg shadow-lg">
 						<div class="flex items-baseline">
 							<span class="text-gray-600 text-base md:text-base lg:text-lg pr-2 inline-block  uppercase tracking-wide">
 								Cabins
@@ -97,7 +97,7 @@
 				</picture>
 
 				<div class="relative px-4 -mt-16">
-					<div class="h-64 md:h-72 lg:h-64 bg-white p-6 rounded-lg shadow-lg">
+					<div class="h-auto pb-20 lg:h-64 bg-white p-6 rounded-lg shadow-lg">
 						<div class="flex items-baseline">
 							<span class="text-gray-600 text-base md:text-base lg:text-lg pr-2 inline-block  uppercase tracking-wide">
 								Domestic
@@ -144,7 +144,7 @@
 				</picture>
 
 				<div class="relative px-4 -mt-16">
-					<div class="h-64 md:h-72 lg:h-64 bg-white p-6 rounded-lg shadow-lg">
+					<div class="h-auto pb-20 lg:h-64 bg-white p-6 rounded-lg shadow-lg">
 						<div class="flex items-baseline">
 							<span class="text-gray-600 text-base md:text-base lg:text-lg pr-2 inline-block  uppercase tracking-wide">
 								Contractors
@@ -188,7 +188,7 @@
 				</picture>
 
 				<div class="relative px-4 -mt-16">
-					<div class="h-64 md:h-72 lg:h-64 bg-white p-6 rounded-lg shadow-lg">
+					<div class="h-auto pb-20 lg:h-64 bg-white p-6 rounded-lg shadow-lg">
 						<div class="flex items-baseline">
 							<span class="text-gray-600 text-base md:text-base lg:text-lg pr-2 inline-block  uppercase tracking-wide">
 								Maintenance
