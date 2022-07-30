@@ -9,7 +9,7 @@
 
 	<!-- THE FORM -->
 	<section id="request-callback" class="w-full bg-gray-700">
-		<div class="flex max-w-5xl mx-auto py-20 space-x-5 ">
+		<div class="flex max-w-5xl mx-auto py-10 sm:py-20 space-x-5 ">
 
 			<div class="px-5 text-base">
 				<h4 class="pt-6 font-semibold">Eager to get started?</h4>
@@ -34,9 +34,9 @@
 
 
 	<!-- CARDS -->
-	<section id="moreinfo" class="max-w-5xl mx-auto py-24">
+	<section id="moreinfo" class="max-w-5xl mx-auto py-16 sm:py-24">
 
-		<div class="text-center">
+		<div class="text-center px-4">
 			<h1 class="hidden">Budlandscapes - Design & Landscaping</h1>
 			<h3 class="text-gray-600 text-2xl uppercase tracking-wide">Our clients are the ones that count</h3>
 			<h4 class="pt-6 font-semibold">We do it all - we do it the best!</h4>

@@ -404,7 +404,7 @@ get_header(); ?>
 
     <!-- THE FORM -->
     <section id="request-callback" class="w-full bg-gray-700">
-        <div class="flex max-w-5xl mx-auto py-20 space-x-5 ">
+        <div class="flex max-w-5xl mx-auto py-10 sm:py-20 space-x-5 ">
 
             <div class="px-5 text-base">
                 <h4 class="pt-6 font-semibold">Eager to get started?</h4>

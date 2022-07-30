@@ -21,6 +21,11 @@ Flexislider:
 	.flex-control-nav {
 		bottom: 5px;
 	}
+	@media screen and (max-width: 768px) {
+		.flex-control-nav {
+			display: none;
+		}
+	}
 
 	.flex-direction-nav a:before {
 		@apply text-teal-500;
@@ -68,7 +73,7 @@ Flexislider:
 			}
 
 			p + p {
-				@apply leading-4 pt-0 mb-1;
+				@apply leading-4 pt-0;
 				padding-bottom: 5px;
 				font-size: 25px;
 				a {

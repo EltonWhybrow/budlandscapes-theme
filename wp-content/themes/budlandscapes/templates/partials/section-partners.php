@@ -3,7 +3,7 @@
 
         <div class="flex flex-col sm:flex-row flex-wrap items-center sm:items-start justify-between p-2 text-white space-y-6 md:space-y-0">
 
-            <div class="w-full my-10 md:w-3/6 p-0 sm:p-1 text-center">
+            <div class="w-full md:w-3/6 lg:w-2/6 px-10 md:pt-8 md:px-20 lg:px-10 text-center">
                 <picture>
                     <source srcset="/resources/img/pages/logos/partners/hc-one-logo.webp" type="image/webp">
                     <source srcset="/resources/img/pages/logos/partners/hc-one-logo.jpg" type="image/jpeg">
@@ -11,7 +11,7 @@
                 </picture>
             </div>
 
-            <div class="w-full my-10 md:w-3/6 p-0 text-xs sm:p-1 text-center">
+            <div class="w-full md:w-3/6 lg:w-2/6 px-10 md:pt-8 md:px-20 lg:px-10 text-center">
                 <picture>
                     <source srcset="/resources/img/pages/logos/partners/adamson-logo.webp" type="image/webp">
                     <source srcset="/resources/img/pages/logos/partners/adamson-logo.jpg" type="image/jpeg">
@@ -19,7 +19,7 @@
                 </picture>
             </div>
 
-            <div class="w-full my-10 md:w-3/6 p-0 text-xs sm:p-1 text-center">
+            <div class="w-full md:w-3/6 lg:w-2/6 px-10 md:pt-8 md:px-20 lg:px-10 text-center">
                 <picture>
                     <source srcset="/resources/img/pages/logos/partners/ruggles-and-jeffery-logo.webp" type="image/webp">
                     <source srcset="/resources/img/pages/logos/partners/ruggles-and-jeffery-logo.jpg" type="image/jpeg">
@@ -27,7 +27,7 @@
                 </picture>
             </div>
 
-            <div class="w-full my-10 md:w-3/6 p-0 text-xs sm:p-1 text-center">
+            <div class="w-full md:w-3/6 lg:w-2/6 px-10 md:pt-8 md:px-20 lg:px-10 text-center">
                 <picture>
                     <source srcset="/resources/img/pages/logos/partners/wcr-org-logo.webp" type="image/webp">
                     <source srcset="/resources/img/pages/logos/partners/wcr-org-logo.jpg" type="image/jpeg">
@@ -35,7 +35,7 @@
                 </picture>
             </div>
 
-            <div class="w-full my-10 md:w-3/6 p-0 text-xs sm:p-1 text-center">
+            <div class="w-full md:w-3/6 lg:w-2/6 px-10 md:pt-8 md:px-20 lg:px-10 text-center">
                 <picture>
                     <source srcset="/resources/img/pages/logos/partners/lancerscott-logo.webp" type="image/webp">
                     <source srcset="/resources/img/pages/logos/partners/lancerscott-logo.jpg" type="image/jpeg">
@@ -43,7 +43,7 @@
                 </picture>
             </div>
 
-            <div class="w-full my-10 md:w-3/6 p-0 text-xs sm:p-1 text-center">
+            <div class="w-full md:w-3/6 lg:w-2/6 px-10 md:pt-8 md:px-20 lg:px-10 text-center">
                 <picture>
                     <source srcset="/resources/img/pages/logos/partners/millboard-logo.webp" type="image/webp">
                     <source srcset="/resources/img/pages/logos/partners/millboard-logo.jpg" type="image/jpeg">

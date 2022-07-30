@@ -51,20 +51,9 @@ get_header(); ?>
                             <p>Established in Maidenhead over 2 decades ago, we now provide our professional services as landscape contractors/designers all over the UK. Through hard work, honesty, teamwork, innovation and a focus on quality, we have steadily grown into a robust team of landscape gardeners, designers and maintenance teams, specialising in delivering the highest level of service.
                             </p>
 
-                            <!-- // Slogan -->
-                            <div class="pb-10 px-5 text-center py-8">
-                                <p class="text-teal-500 text-base">
-                                    <span class="bg-teal-600 px-3 py-1 my-1 text-white inline-block rounded-md">hard work</span> -
-                                    <span class="bg-teal-600 px-3 py-1 my-1 text-white inline-block rounded-md">honesty</span> -
-                                    <span class="bg-teal-600 px-3 py-1 my-1 text-white inline-block rounded-md">teamwork</span> -
-                                    <span class="bg-teal-600 px-3 py-1 my-1 text-white inline-block rounded-md">innovation</span> -
-                                    <span class="bg-teal-600 px-3 py-1 my-1 text-white inline-block rounded-md">quality</span>
-                                </p>
-                            </div>
-
                 </div>
 
-                <div class="w-full px-5 md:w-2/5">
+                <div class="w-full pt-3 px-5 md:w-2/5">
 
                     <picture>
                         <source srcset="/resources/img/pages/about/about-1.webp" type="image/webp">
@@ -135,7 +124,7 @@ get_header(); ?>
 
                 </div>
 
-                <div class="md:hidden px-5 w-full md:w-2/5">
+                <div class="md:hidden px-3 pt-4 w-full md:w-2/5">
                     <picture>
                         <source srcset="/resources/img/pages/about/about-2.webp" type="image/webp">
                         <source srcset="/resources/img/pages/about/about-2.jpg" type="image/jpeg">
@@ -149,6 +138,16 @@ get_header(); ?>
                 <h3 class="text-gray-600 text-2xl uppercase tracking-wide">Work Ethics<h3>
                         <p>Our gardeners always take great pride in their work, whether fencing, laying drives & patios, or simply providing regular gardening duties such as grass cutting & general garden maintenance. We are all passionate about gardening; no job is too big or small, and all get the same high attention to detail. As we all know, it's important to be as eco-friendly as possible, so to do our bit for the environment we always use sustainable soil, bark mulch & recycled compost, and have a strict policy of recycling as much waste as we can.
                         </p>
+                        <!-- // Values -->
+                        <div class="pb-10 px-5 text-center py-8">
+                            <p class="text-teal-500 text-lg capitalize">
+                                <span class="bg-teal-600 px-3 py-1 my-1 text-white inline-block rounded-md">hard work</span>
+                                <span class="bg-teal-600 px-3 py-1 my-1 text-white inline-block rounded-md">honesty</span>
+                                <span class="bg-teal-600 px-3 py-1 my-1 text-white inline-block rounded-md">teamwork</span>
+                                <span class="bg-teal-600 px-3 py-1 my-1 text-white inline-block rounded-md">innovation</span>
+                                <span class="bg-teal-600 px-3 py-1 my-1 text-white inline-block rounded-md">quality</span>
+                            </p>
+                        </div>
                         <p>
                             Our skilled gardeners have been providing high quality landscaping services to domestic customers throughout Maidenhead and surrounding areas for many years. Due to on-going success and expansion, we can also undertake larger commercial garden maintenance contracts for businesses and corporate companies across the country.
                         </p>
@@ -178,7 +177,7 @@ get_header(); ?>
 
     <!-- THE FORM -->
     <section id="request-callback" class="w-full bg-gray-700">
-        <div class="flex max-w-5xl mx-auto py-20 space-x-5 ">
+        <div class="flex max-w-5xl mx-auto py-10 sm:py-20 space-x-5 ">
 
             <div class="px-5 text-base">
                 <h4 class="pt-6 font-semibold">Eager to get started?</h4>
