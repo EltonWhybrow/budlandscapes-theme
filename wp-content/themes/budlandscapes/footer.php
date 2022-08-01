@@ -24,6 +24,7 @@
                 <h3 class="text-base font-semibold text-white mb-3 pl-0">Company</h3>
                 <ul>
                     <li><a class="primary-link" href="/testimonials">Testimonials</a></li>
+                    <li><a class="primary-link" href="/cookie-policy">Cookie Policy</a></li>
                     <li><a class="primary-link" href="/site-map">Sitemap</a></li e </ul>
             </div>
 
